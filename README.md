@@ -17,7 +17,9 @@
 - [文字情報基盤](https://github.com/code4fukui/mojikiban)
 
 ## 参考
+
 - [標準ガイドライン群用語集](https://code4fukui.github.io/stdwords-jp/)
+- [デジタル・ガバメント実行計画](デジタル・ガバメント実行計画.md)
 
 ## 出展
 
