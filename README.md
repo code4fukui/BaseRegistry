@@ -19,7 +19,7 @@
 
 ### データ連携モデル
 
-- [日付時刻](https://cio.go.jp/sites/default/files/uploads/documents/1015-1_gyousei_data_model_datetime_20210604.pdf)
+- [日付時刻](行政基本情報データ連携モデル-日付及び時刻.md)
 - [住所](https://cio.go.jp/sites/default/files/uploads/documents/1015-2_gyousei_data_model_address_20210604.pdf)
 - [郵便番号](https://cio.go.jp/sites/default/files/uploads/documents/1015-3_gyousei_data_model_postal_code.pdf)
 - [地理情報](https://cio.go.jp/sites/default/files/uploads/documents/1015-4_gyousei_data_model_geo.pdf)
