@@ -17,6 +17,16 @@
 - [文字環境導入実践ガイドブック](文字環境導入実践ガイドブック.md)
 - [文字情報基盤](https://github.com/code4fukui/mojikiban)
 
+### データ連携モデル
+
+- [日付時刻](https://cio.go.jp/sites/default/files/uploads/documents/1015-1_gyousei_data_model_datetime_20210604.pdf)
+- [住所](https://cio.go.jp/sites/default/files/uploads/documents/1015-2_gyousei_data_model_address_20210604.pdf)
+- [郵便番号](https://cio.go.jp/sites/default/files/uploads/documents/1015-3_gyousei_data_model_postal_code.pdf)
+- [地理情報](https://cio.go.jp/sites/default/files/uploads/documents/1015-4_gyousei_data_model_geo.pdf)
+- [電話番号](https://cio.go.jp/sites/default/files/uploads/documents/1015-5_gyousei_data_model_phone.pdf)
+- [POIコード](https://cio.go.jp/sites/default/files/uploads/documents/1015-6_gyousei_data_model_poi.pdf)
+- [POIコード一覧](https://cio.go.jp/sites/default/files/uploads/documents/1015-6_gyousei_data_poikode_ichiran.pdf)
+
 ## 参考
 
 - [標準ガイドライン群用語集](https://code4fukui.github.io/stdwords-jp/)
