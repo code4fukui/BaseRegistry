@@ -23,7 +23,7 @@
 - [住所](https://cio.go.jp/sites/default/files/uploads/documents/1015-2_gyousei_data_model_address_20210604.pdf)
 - [郵便番号](行政基本情報データ連携モデル-郵便番号.md)
 - [地理情報](行政基本情報データ連携モデル-地理情報.md)
-- [電話番号](https://cio.go.jp/sites/default/files/uploads/documents/1015-5_gyousei_data_model_phone.pdf)
+- [電話番号](行政基本情報データ連携モデル-電話番号.md)
 - [POIコード](https://cio.go.jp/sites/default/files/uploads/documents/1015-6_gyousei_data_model_poi.pdf)
 - [POIコード一覧](https://cio.go.jp/sites/default/files/uploads/documents/1015-6_gyousei_data_poikode_ichiran.pdf)
 
