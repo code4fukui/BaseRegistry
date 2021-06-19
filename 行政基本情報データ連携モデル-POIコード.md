@@ -31,7 +31,7 @@
 観光とスポーツ施設について、上記に加えて以下を参照している。
 - [観光庁 観光入込客統計に関する共通基準 観光地点等分類コード](https://www.mlit.go.jp/common/000995211.pdf)
 - [観光庁 観光立国実現に向けた多言語対応の改善・強化のためのガイドライン](https://www.mlit.go.jp/kankocho/news03_000102.html)
-- 文部科学省 体育・スポーツ施設現況調査 施設種別の定義
+- [文部科学省 体育・スポーツ施設現況調査 施設種別の定義](https://www.mext.go.jp/sports/b_menu/toukei/chousa04/shisetsu/1368149.htm)
 - [東京都 国内外旅行者のためのわかりやすい案内サイン標準化指針【東京都版対訳表】](https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/signs/)
 
 海外標準との整合性を確保する観点から以下についても参照している。
