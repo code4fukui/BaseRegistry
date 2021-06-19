@@ -21,7 +21,7 @@
 
 - [日付時刻](行政基本情報データ連携モデル-日付及び時刻.md)
 - [住所](https://cio.go.jp/sites/default/files/uploads/documents/1015-2_gyousei_data_model_address_20210604.pdf)
-- [郵便番号](https://cio.go.jp/sites/default/files/uploads/documents/1015-3_gyousei_data_model_postal_code.pdf)
+- [郵便番号](行政基本情報データ連携モデル-郵便番号.md)
 - [地理情報](https://cio.go.jp/sites/default/files/uploads/documents/1015-4_gyousei_data_model_geo.pdf)
 - [電話番号](https://cio.go.jp/sites/default/files/uploads/documents/1015-5_gyousei_data_model_phone.pdf)
 - [POIコード](https://cio.go.jp/sites/default/files/uploads/documents/1015-6_gyousei_data_model_poi.pdf)
