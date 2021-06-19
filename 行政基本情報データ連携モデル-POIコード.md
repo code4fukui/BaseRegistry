@@ -23,23 +23,23 @@
 既存の施設コード、地理目的コードから選択している。
 
 基本は以下の４分類を参照している。
-- 国土地理院 電子国土基本図 地物種別コード
-- 国土交通省 都市計画 GIS 地物一覧
-- 国土交通省 国土数値情報
-- 国土地理院 公共測量標準図式 数値地形図データ取得分類コード表
+- [国土地理院 電子国土基本図 地物種別コード](https://www.gsi.go.jp/common/000189294.pdf)
+- [国土交通省 都市計画 GIS 地物一覧](https://www.mlit.go.jp/crd/tosiko/GISguidance/index.html)
+- [国土交通省 国土数値情報](https://nlftp.mlit.go.jp/ksj/)
+- [国土地理院 公共測量標準図式 数値地形図データ取得分類コード表](https://www.mlit.go.jp/crd/city/sigaiti/materials/sokuryou/fuzokushiryou.pdf)
 
 観光とスポーツ施設について、上記に加えて以下を参照している。
-- 観光庁 観光入込客統計に関する共通基準 観光地点等分類コード
-- 観光庁 観光立国実現に向けた多言語対応の改善・強化のためのガイドライン
+- [観光庁 観光入込客統計に関する共通基準 観光地点等分類コード](https://www.mlit.go.jp/common/000995211.pdf)
+- [観光庁 観光立国実現に向けた多言語対応の改善・強化のためのガイドライン](https://www.mlit.go.jp/kankocho/news03_000102.html)
 - 文部科学省 体育・スポーツ施設現況調査 施設種別の定義
-- 東京都 国内外旅行者のためのわかりやすい案内サイン標準化指針【東京都版対訳表】
+- [東京都 国内外旅行者のためのわかりやすい案内サイン標準化指針【東京都版対訳表】](https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/signs/)
 
 海外標準との整合性を確保する観点から以下についても参照している。
-- OpenStreetMap Wiki, JA:Map Features(2017-11-28)
-- schema.org(2017-11-28)
+- [OpenStreetMap Wiki, JA:Map Features](https://wiki.openstreetmap.org/wiki/JA:Map_Features)(2017-11-28)
+- [schema.org](https://schema.org/)(2017-11-28)
 
 また、店舗等の産業関連目標物との整合性を確保する観点から、以下についても参照している。
-- 日本標準産業分類
+- [日本標準産業分類](https://www.soumu.go.jp/toukei_toukatsu/index/seido/sangyo/02toukatsu01_03000023.html)
 
 ### 2.2. 分類項目名
 
