@@ -2,6 +2,8 @@
 
 - 標準ガイドライン群 ID：1015-6
 - 2019-03-28
+- https://cio.go.jp/sites/default/files/uploads/documents/1015-6_gyousei_data_model_poi.pdf
+- https://cio.go.jp/sites/default/files/uploads/documents/1015-6_gyousei_data_model_poi.docx
 
 観光施設、公共施設など地理的目標物を POI（Point Of Interest）と呼び、既存の施設コード、自然物コード等を比較し、以下のとおり整理する。
 
