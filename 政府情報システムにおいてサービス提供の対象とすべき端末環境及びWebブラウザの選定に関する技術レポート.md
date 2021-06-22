@@ -54,8 +54,8 @@
 
 ||現行対応するブラウザ|今後サポートすべきブラウザ|
 |-|-|-|
-|必須サポート|Internet Explorer|Microsoft Edge Google Chrome Apple Safari|
-|任意サポート|Apple Safari|Mozilla Firefox Internet Explorer|
+|必須サポート|Internet Explorer|Microsoft Edge, Google Chrome, Apple Safari|
+|任意サポート|Apple Safari|Mozilla Firefox, Internet Explorer|
 
 ※表は 2018 年 12 月時点のシェアに基づき記述しています。
 
