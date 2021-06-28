@@ -38,3 +38,11 @@
 
 - [ベース・レジストリの指定について | 政府CIOポータル](https://cio.go.jp/node/2764)
 - [標準ガイドライン群 | 政府CIOポータル](https://cio.go.jp/guides)
+
+## ワードファイル作成(docx)
+
+[Deno](https://deno.land)をインストール
+```
+cd deno
+deno run -A make.js
+```
