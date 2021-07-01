@@ -1,0 +1,754 @@
+"通し
+No",区分,分類,"分類別
+No",名前,データのURL,"データ
+形式",説明,公開ウェブページ,公表組織名,連絡先,更新頻度,対象地域
+1,行政,府省,1,政府機関コード(利用機関コード),http://www.stat.go.jp/info/guide/public/code/pdf/code.pdf,pdf,統計用分類　国及び関係機関のコード（独立行政法人、国立大学法人等は大分類コードのみ）,http://www.stat.go.jp/info/guide/public/,総務省,総務省統計局統計情報システム課　最適化推進担当,不定期,
+2,行政,府省,2,所管コード（予算書）,http://www.bb.mof.go.jp/server/2014/dlpdf/DL201411001.pdf,pdf,予算書で管理する所管コード（組織）,http://www.mof.go.jp/budget/budger_workflow/budget/index.html,財務省,財務省,1年単位,
+3,行政,府省,3,調達機関コード,"※リンク不可
+http://www.kantei.go.jp/jp/kanbou/25tyoutatu/dai4/dai4siryo3.pdf",pdf,"政府調達用コード
+※外部リンク不可のため、URLをブラウザへ直接入力する必要がある",http://www.kantei.go.jp/jp/kanbou/25tyoutatu/,内閣官房,内閣官房副長官補付,1年単位,
+4,行政,府省,4,政府機関コード一覧,https://sites.google.com/site/opendatajp/code-catalog/%E6%94%BF%E5%BA%9C%E6%A9%9F%E9%96%A2%E3%82%B3%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7.xlsx?attredirects=0&d=1,xls,「opendata　Code Catalog」へ掲載されている政府機関コードの一覧,https://sites.google.com/site/opendatajp/code-catalog,,,不定期,
+5,行政,府省,5,発注機関コード,http://ct.jacic.or.jp/corporation/know/xml/file/c02x01_03.xls,xls,※「府省名＋コード」の検索で発見されたため、詳細不明,,内閣府,内閣府,不定期,
+6,行政,自治体,1,全国地方公共団体コード,www.soumu.go.jp/main_content/000285753.xls,xls,情報処理の効率化と円滑化に資するため、コード標準化の一環として、全国の都道府県及び市区町村のコードを設定したもの,http://www.soumu.go.jp/denshijiti/code.html,総務省,総務省地域力創造グループ地域情報政策室,不定期,
+7,行政,自治体,2,地域に関するコード整理,www.kantei.go.jp/jp/singi/it2/densi/wg/dai2/siryou2-1t.xls,xls,電子行政オープンデータ実務者会議データWG資料,http://www.kantei.go.jp/jp/singi/it2/densi/wg/dai2/gijisidai.html,,,,
+8,行政,自治体,3,政令指定都市番号,http://www.mext.go.jp/component/b_menu/other/__icsFiles/afieldfile/2012/03/30/1318957_1.pdf,pdf,学校基本調査で使用する番号,http://www.mext.go.jp/b_menu/toukei/chousa01/kihon/1267995.htm,文部科学省,文部科学省生涯学習政策局政策課,不定期,
+9,行政,自治体,4,行政コード,http://www.gsi.go.jp/KOKUJYOHO/MENCHO/201310/ichiran.xls,xls,全国都道府県市区町村別面積調,http://www.gsi.go.jp/KOKUJYOHO/MENCHO-title.htm,国土交通省,国土交通省国土地理院,不定期,
+10,行政,避難所,1,避難施設整理番号（北海道）,http://www.kokuminhogo.go.jp/pdf/hinan_hokkaido.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,北海道
+11,行政,避難所,2,避難施設整理番号（青森県）,http://www.kokuminhogo.go.jp/pdf/hinan_aomori.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,青森県
+12,行政,避難所,3,避難施設整理番号（岩手県）,http://www.kokuminhogo.go.jp/pdf/hinan_iwate.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,岩手県
+13,行政,避難所,4,避難施設整理番号（宮城県）,http://www.kokuminhogo.go.jp/pdf/hinan_miyagi.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,宮城県
+14,行政,避難所,5,避難施設整理番号（秋田県）,http://www.kokuminhogo.go.jp/pdf/hinan_akita.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,秋田県
+15,行政,避難所,6,避難施設整理番号（山形県）,http://www.kokuminhogo.go.jp/pdf/hinan_yamagata.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,山形県
+16,行政,避難所,7,避難施設整理番号（福島県）,http://www.kokuminhogo.go.jp/pdf/hinan_fukushima.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,福島県
+17,行政,避難所,8,避難施設整理番号（茨城県）,http://www.kokuminhogo.go.jp/pdf/hinan_ibaraki.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,茨城県
+18,行政,避難所,9,避難施設整理番号（栃木県）,http://www.kokuminhogo.go.jp/pdf/hinan_tochigi.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,栃木県
+19,行政,避難所,10,避難施設整理番号（群馬県）,http://www.kokuminhogo.go.jp/pdf/hinan_gunma.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,群馬県
+20,行政,避難所,11,避難施設整理番号（埼玉県）,http://www.kokuminhogo.go.jp/pdf/hinan_saitama.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,埼玉県
+21,行政,避難所,12,避難施設整理番号（千葉県）,http://www.kokuminhogo.go.jp/pdf/hinan_chiba.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,千葉県
+22,行政,避難所,13,避難施設整理番号（東京都）,http://www.kokuminhogo.go.jp/pdf/hinan_tokyo.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,東京都
+23,行政,避難所,14,避難施設整理番号（神奈川県）,http://www.kokuminhogo.go.jp/pdf/hinan_kanagawa.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,神奈川県
+24,行政,避難所,15,避難施設整理番号（新潟県）,http://www.kokuminhogo.go.jp/pdf/hinan_niigata.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,新潟県
+25,行政,避難所,16,避難施設整理番号（山梨県）,http://www.kokuminhogo.go.jp/pdf/hinan_yamanashi.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,山梨県
+26,行政,避難所,17,避難施設整理番号（長野県）,http://www.kokuminhogo.go.jp/pdf/hinan_nagano.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,長野県
+27,行政,避難所,18,避難施設整理番号（富山県）,http://www.kokuminhogo.go.jp/pdf/hinan_toyama.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,富山県
+28,行政,避難所,19,避難施設整理番号（石川県）,http://www.kokuminhogo.go.jp/pdf/hinan_ishikawa.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,石川県
+29,行政,避難所,20,避難施設整理番号（福井県）,http://www.kokuminhogo.go.jp/pdf/hinan_fukui.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,福井県
+30,行政,避難所,21,避難施設整理番号（岐阜県）,http://www.kokuminhogo.go.jp/pdf/hinan_gifu.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,岐阜県
+31,行政,避難所,22,避難施設整理番号（静岡県）,http://www.kokuminhogo.go.jp/pdf/hinan_shizuoka.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,静岡県
+32,行政,避難所,23,避難施設整理番号（愛知県）,http://www.kokuminhogo.go.jp/pdf/hinan_aichi.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,愛知県
+33,行政,避難所,24,避難施設整理番号（三重県）,http://www.kokuminhogo.go.jp/pdf/hinan_mie.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,三重県
+34,行政,避難所,25,避難施設整理番号（滋賀県）,http://www.kokuminhogo.go.jp/pdf/hinan_shiga.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,滋賀県
+35,行政,避難所,26,避難施設整理番号（京都府）,http://www.kokuminhogo.go.jp/pdf/hinan_kyoto.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,京都府
+36,行政,避難所,27,避難施設整理番号（大阪府）,http://www.kokuminhogo.go.jp/pdf/hinan_osaka.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,大阪府
+37,行政,避難所,28,避難施設整理番号（兵庫県）,http://www.kokuminhogo.go.jp/pdf/hinan_hyogo.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,兵庫県
+38,行政,避難所,29,避難施設整理番号（奈良県）,http://www.kokuminhogo.go.jp/pdf/hinan_nara.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,奈良県
+39,行政,避難所,30,避難施設整理番号（和歌山県）,http://www.kokuminhogo.go.jp/pdf/hinan_wakayama.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,和歌山県
+40,行政,避難所,31,避難施設整理番号（鳥取県）,http://www.kokuminhogo.go.jp/pdf/hinan_tottori.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,鳥取県
+41,行政,避難所,32,避難施設整理番号（島根県）,http://www.kokuminhogo.go.jp/pdf/hinan_shimane.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,島根県
+42,行政,避難所,33,避難施設整理番号（岡山県）,http://www.kokuminhogo.go.jp/pdf/hinan_okayama.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,岡山県
+43,行政,避難所,34,避難施設整理番号（広島県）,http://www.kokuminhogo.go.jp/pdf/hinan_hiroshima.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,広島県
+44,行政,避難所,35,避難施設整理番号（山口県）,http://www.kokuminhogo.go.jp/pdf/hinan_yamaguchi.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,山口県
+45,行政,避難所,36,避難施設整理番号（徳島県）,http://www.kokuminhogo.go.jp/pdf/hinan_tokushima.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,徳島県
+46,行政,避難所,37,避難施設整理番号（香川県）,http://www.kokuminhogo.go.jp/pdf/hinan_kagawa.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,香川県
+47,行政,避難所,38,避難施設整理番号（愛媛県）,http://www.kokuminhogo.go.jp/pdf/hinan_ehime.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,愛媛県
+48,行政,避難所,39,避難施設整理番号（高知県）,http://www.kokuminhogo.go.jp/pdf/hinan_kochi.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,高知県
+49,行政,避難所,40,避難施設整理番号（福岡県）,http://www.kokuminhogo.go.jp/pdf/hinan_fukuoka.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,福岡県
+50,行政,避難所,41,避難施設整理番号（佐賀県）,http://www.kokuminhogo.go.jp/pdf/hinan_saga.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,佐賀県
+51,行政,避難所,42,避難施設整理番号（長崎県）,http://www.kokuminhogo.go.jp/pdf/hinan_nagasaki.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,長崎県
+52,行政,避難所,43,避難施設整理番号（熊本県）,http://www.kokuminhogo.go.jp/pdf/hinan_kumamoto.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,熊本県
+53,行政,避難所,44,避難施設整理番号（大分県）,http://www.kokuminhogo.go.jp/pdf/hinan_oita.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,大分県
+54,行政,避難所,45,避難施設整理番号（宮崎県）,http://www.kokuminhogo.go.jp/pdf/hinan_miyazaki.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,宮崎県
+55,行政,避難所,46,避難施設整理番号（鹿児島県）,http://www.kokuminhogo.go.jp/pdf/hinan_kagoshima.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,鹿児島県
+56,行政,避難所,47,避難施設整理番号（沖縄県）,http://www.kokuminhogo.go.jp/pdf/hinan_okinawa.pdf,pdf,都道府県毎に避難施設に番号を付与したもの,http://www.kokuminhogo.go.jp/hinan/index.html,内閣官房,内閣官房副長官補（事態対処・危機管理担当）付,1年単位,沖縄県
+57,行政,公共施設,1,公共施設大分類コード,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMaclassCd.html,html,全国の官公署、学校、病院、郵便局、社会福祉施設等の位置及び種別、名称、住所、管理者等のデータを整備したもの,http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P02-v4_0.html,国土交通省,国土交通省国土政策局国土情報課,不定期,
+58,行政,公共施設,2,公共施設小分類コード,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacMiclassCd.html,html,全国の官公署、学校、病院、郵便局、社会福祉施設等の位置及び種別、名称、住所、管理者等のデータを整備したもの,http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P02-v4_0.html,国土交通省,国土交通省国土政策局国土情報課,不定期,
+59,行政,公共施設,3,公共施設管理者コード,http://nlftp.mlit.go.jp/ksj/gml/codelist/PubFacAdminCd.html,html,全国の官公署、学校、病院、郵便局、社会福祉施設等の位置及び種別、名称、住所、管理者等のデータを整備したもの,http://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-P02-v4_0.html,国土交通省,国土交通省国土政策局国土情報課,不定期,
+60,行政,住所,1,所在地コード,"※リンク不可
+http://www.kantei.go.jp/jp/kanbou/25tyoutatu/dai4/dai4siryo2.pdf",pdf,"政府調達用コード
+※外部リンク不可のため、URLをブラウザへ直接入力する必要がある",http://www.kantei.go.jp/jp/kanbou/25tyoutatu/,内閣官房,内閣官房副長官補付,1年単位,
+61,行政,住所,2,都道府県コード(JISX0401),※リンク不可,pdf,「全国地方公共団体コード」のうち都道府県コードのJIS規格,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0401,総務省,一般財団法人日本情報経済社会推進協会,不定期,
+62,行政,住所,3,市町村コード(JISX0402),※リンク不可,pdf,「全国地方公共団体コード」のうち市町村コードのJIS規格,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0402,総務省,財団法人　日本規格協会,不定期,
+63,行政,住所,4,統計に用いる標準地域コード,http://www.stat.go.jp/index/seido/csv/9-5.csv,csv,"都道府県及び市町村の区域を示す統計情報の表章及び当該情報の相互利用のための基準
+",http://www.stat.go.jp/index/seido/9-5.htm,総務省,総務省政策統括官（統計基準担当）付　統計審査官室,不定期,
+64,行政,住所,5,平成22年国勢調査　地域一覧,http://www.e-stat.go.jp/SG1/estat/Xlsdl.do?sinfid=000010353060,xls,国勢調査に利用する地域一覧のコード,http://www.e-stat.go.jp/estat/html/kokusei/NewList-000001039448.html,総務省,総務省統計局統計調査部国勢統計課審査発表係,5年単位,
+65,行政,住所,6,調査対象都道府県番号,http://www.env.go.jp/recycle/waste/sangyo/sangyo_h21a.pdf,pdf,"産業廃棄物排出・処理状況調査報告書
+「表-Ⅱ・１　調査対象都道府県」",http://www.env.go.jp/recycle/waste/sangyo.html,環境省,環境省,不定期,
+66,行政,住所,7,市町村コード,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an18.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+67,行政,国,1,国名コード(JISX0304)      ,※リンク不可,pdf,国名の表現をコード形式で要求する全ての応用に利用できることを意図して規定したもの,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0304,,,不定期,
+68,行政,国,2,統計国名符号表,http://www.customs.go.jp/toukei/sankou/dgorder/a1.htm,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/dgorder/ts_dg_or.htm,財務省,財務省関税局,不定期,
+69,行政,国,3,仕出国（地域)コード,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an2.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+70,行政,言語,1,言語名コード：2文字コード(JISX0412-1),※リンク不可,pdf,言語名を示す２個のラテン文字からなる言語識別子を含む言語名コードについて標準化を行い、生産及び使用の合理化、品質の向上を図るために制定したもの,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0412-1,,,不定期,
+71,行政,言語,2,言語名コード：３文字コード(JISX0412-2),※リンク不可,pdf,言語名を示す３個のラテン文字からなる言語識別子を含む言語名コードについて規定したもの,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0412-2,,,不定期,
+72,自然,川,1,河川コード,http://www.biodic.go.jp/reports2/5th/kasen/5_kasen.pdf,pdf,自然環境保全基礎調査のうち、河川調査に使用するコード（報告書「表１－２－１　調査対象河川一覧表」）,http://www.biodic.go.jp/kiso/23/23_kasen.html,環境省,環境省自然環境局生物多様性センター,不定期,
+73,自然,川,2,業務対象水系・路線等コード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/pdf/code_suikei_rosen_h2308.pdf,pdf,農業農村整備事業の電子納品に係る業務・工事管理項目のコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/sonota.html,農林水産省,農林水産省農村振興局整備部設計課施工企画調整室,不定期,
+74,自然,湖沼,1,湖沼コード,http://www.biodic.go.jp/reports2/4th/kosho/4_kosho_all.pdf,pdf,自然環境保全基礎調査のうち、湖沼調査に使用するコード（報告書「図Ⅱ－２　調査対象湖沼位地図」）,http://www.biodic.go.jp/kiso/22/22_kosho.html,環境省,環境省自然環境局生物多様性センター,不定期,
+75,自然,海,1,海域区分コード,http://www.biodic.go.jp/reports2/5th/umibecode/5_umibecode.pdf,pdf,"自然環境保全基礎調査（海辺調査）
+（pdfの5ページから7ページ）",http://www.biodic.go.jp/kiso/99/umibe.html,環境省,環境省自然環境局生物多様性センター,不定期,
+76,自然,島,1,島コード,http://www.biodic.go.jp/reports2/5th/umibecode/5_umibecode.pdf,pdf,自然環境保全基礎調査のうち、海辺調査に使用するコード（報告書「３．島コード」）,http://www.biodic.go.jp/kiso/99/umibe.html,,環境省自然環境局生物多様性センター,不定期,
+77,自然,干潟,1,干潟コード,http://www.biodic.go.jp/reports2/6th/6_higata19/6_higata19.pdf,pdf,自然環境保全基礎調査のうち、浅海域生態系調査（干潟・藻場・サンゴ礁調査）に使用するコード（報告書「表２－１　全国干潟調査　調査地一覧」）,http://www.biodic.go.jp/kiso/34/34_higat.html,環境省,環境省自然環境局生物多様性センター,不定期,
+78,自然,湿地,1,湿地コード,http://www.biodic.go.jp/dload/swp/swp05lst.lzh,lzh,自然環境保全基礎調査のうち、湿地調査に使用する湿地コード,http://www.biodic.go.jp/kiso/24/24_wet.html,環境省,環境省自然環境局生物多様性センター,不定期,
+79,産業,法人,1,特定排出者コード（一般の民間企業等）,http://ghg-santeikohyo.env.go.jp/search/general,html,温室効果ガス排出量算定・報告・公表制度に係る特定排出者コード,http://ghg-santeikohyo.env.go.jp/search,環境省,環境省地球環境局地球温暖化対策課,不定期,
+80,産業,法人,2,特定排出者コード検索（その他の事業者）,http://ghg-santeikohyo.env.go.jp/search/other,html,温室効果ガス排出量算定・報告・公表制度に係る特定排出者コード,http://ghg-santeikohyo.env.go.jp/search,環境省,環境省地球環境局地球温暖化対策課,不定期,
+81,産業,産業分類,1,日本標準産業分類 ,http://www.stat.go.jp/index/seido/sangyo/19-3-1.htm,html,統計調査の結果を産業別に表示する場合の統計基準として，事業所において社会的な分業として行われる財及びサービスの生産又は提供に係るすべての経済活動を分類する,http://www.stat.go.jp/index/seido/sangyo/19-3.htm,総務省,総務省政策統括官（統計基準担当）付統計基準・産業連関表・調査技術担当統計審査官室,不定期,
+82,産業,産業分類,2,産業分類コード(JISX0403),※リンク不可,pdf,統計基準の一つとして、公的統計を職業別に表示するために、 個人が従事している仕事の類似性に着目して区分し、それを体系的に配列した形で設定されたもの,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0403,,,不定期,
+83,産業,産業分類,3,業種コード・届出先一覧,http://www.prtr.nite.go.jp/prtr/pdf/type.pdf,pdf,化管法(特定化学物質の環境への排出量の把握等及び管理の改善の促進に関する法律)に係る届出コード,http://www.prtr.nite.go.jp/,経済産業省,製品評価技術基盤機構,不定期,
+84,産業,職業分類,1,日本標準職業分類     ,http://www.stat.go.jp/index/seido/shokgyou/pdf/kou_h21.pdf,pdf,統計基準の一つとして、公的統計を職業別に表示するために、 個人が従事している仕事の類似性に着目して区分し、それを体系的に配列した形で設定されたもの,http://www.soumu.go.jp/toukei_toukatsu/index/seido/shokgyou/21index.htm,総務省,総務省政策統括官（統計基準担当）付統計基準・産業連関表・調査技術担当統計審査官室,不定期,
+85,産業,職業分類,2,職業分類コード(JISX0404)  ,※リンク不可,pdf,統計調査の結果を商品別に表示する場合の統計基準として設定されたもの,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0404,,,不定期,
+86,産業,商品,1,日本標準商品分類    （大・中分類項目表）,http://www.soumu.go.jp/main_content/000294373.pdf,,統計調査の結果を商品別に表示する場合の統計基準として設定されたもの,http://www.soumu.go.jp/toukei_toukatsu/index/seido/syouhin/2index.htm,総務省,総務省政策統括官（統計基準担当）付統計基準・産業連関表・調査技術担当統計審査官室,不定期,
+87,産業,商品,2,日本標準商品分類     （小分類項目表）,http://www.soumu.go.jp/main_content/000294374.pdf,,統計調査の結果を商品別に表示する場合の統計基準として設定されたもの,http://www.soumu.go.jp/toukei_toukatsu/index/seido/syouhin/2index.htm,総務省,総務省政策統括官（統計基準担当）付統計基準・産業連関表・調査技術担当統計審査官室,不定期,
+88,産業,商品,3,商品分類コード(JISX0405)   ,※リンク不可,pdf,統計調査の結果を商品別に表示する場合の統計基準として設定されたもの,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0405,,,不定期,
+89,産業,商品,4,家計調査　収支項目分類,http://www.stat.go.jp/data/kakei/koumoku/pdf/bunrui22.pdf,pdf,家計の収入・支出、貯蓄・負債などを毎月調査している家計調査の収支項目分類,http://www.stat.go.jp/data/kakei/9.htm,総務省,総務省統計局,不定期,
+90,産業,商品,5,輸出統計品目表,http://www.customs.go.jp/yusyutu/2014/,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/yusyutu/index.htm,財務省,財務省関税局,不定期,
+91,産業,商品,6,概況品コード表（輸出）,http://www.customs.go.jp/toukei/sankou/code/GH201401e.html,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/code/code.htm,財務省,財務省関税局,不定期,
+92,産業,商品,7,概況品コード表（輸入）,http://www.customs.go.jp/toukei/sankou/code/GH201401i.html,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/code/code.htm,財務省,財務省関税局,不定期,
+93,産業,勘定科目,1,勘定科目コード(JISX0406) ,※リンク不可,pdf,0,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0406,,,不定期,
+94,産業,分野・資格,1,分野・資格コード表,http://www.mhlw.go.jp/bunya/nouryoku/kyouiku/dl/03f.pdf,pdf,教育訓練給付制度に係る分野・資格コード,http://www.mhlw.go.jp/bunya/nouryoku/kyouiku/,厚生労働省,厚生労働省職業能力開発局育成支援課,不定期,
+95,産業,分野・資格,2,免許・資格コード一覧,https://www.hellowork.go.jp/info/license_list03.html#sikaku_top_10,html,ハローワークで使用する免許・資格コード一覧,https://www.hellowork.go.jp/info/license_list01.html,厚生労働省,厚生労働省職業安定局,不定期,
+96,産業,農業,1,農業地域コード,http://www.data.go.jp/data/storage/f/2013-12-17T00%3A32%3A07.256Z/maff13code_88.xlsx,xls,農林業センサスに使用する農業地域コード,http://www.maff.go.jp/j/tokei/census/afc/2000/area.html,農林水産省,農林水産省大臣官房統計部経営・構造統計課センサス統計室,不定期,
+97,産業,農業,2,農業地域類型区分コード,http://www.maff.go.jp/j/tokei/census/afc/2010/other/tiiki_ruikei.xls,xls,市区町村ごとに、農業地域類型を設定したもの,http://www.maff.go.jp/j/tokei/chiiki_ruikei/setsumei.html,農林水産省,農林水産省大臣官房統計部管理課,不定期,
+98,産業,特定排出者コード,1,特定排出者コード（環境省所管）,http://ghg-santeikohyo.env.go.jp/files/result/h23/result-a.xlsx,xls,「温室効果ガス排出量　算定・報告・公表制度」ＨＰ内に、集計結果として報告のあった対象事業者の特定排出者コード・事業者名を掲載して公表　,http://ghg-santeikohyo.env.go.jp/result,環境省,環境省,不定期,
+99,交通,港・空港,1,港符号表,http://www.customs.go.jp/toukei/sankou/dgorder/a3.htm,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/dgorder/ts_dg_or.htm,財務省,財務省関税局,不定期,
+100,交通,港・空港,2,港コード(畜産物が輸入可能な港),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an4.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+101,交通,港・空港,3,港コード(動物の輸入が可能な港),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an13.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+102,医療,医科,1,"医療機関番号（北海道）
+医科（札幌市内）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-ika01.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+103,医療,医科,2,"医療機関番号（北海道）
+医科（函館市、小樽市、旭川市）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-ika02.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+104,医療,医科,3,"医療機関番号（北海道）
+医科（上記以外の市町村）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-ika03.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+105,医療,医科,4,"医療機関番号（東北）
+医科（青森県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-aomori-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,青森県
+106,医療,医科,5,"医療機関番号（東北）
+医科（岩手県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-iwate-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,岩手県
+107,医療,医科,6,"医療機関番号（東北）
+医科（宮城県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-miyagi-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,宮城県
+108,医療,医科,7,"医療機関番号（東北）
+医科（秋田県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-akita-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,秋田県
+109,医療,医科,8,"医療機関番号（東北）
+医科（山形県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-yamagata-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,山形県
+110,医療,医科,9,"医療機関番号（東北）
+医科（福島県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-fukushima-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,福島県
+111,医療,医科,10,"医療機関番号（関東信越）
+医科（埼玉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/documents/shitei_shido_kansa_ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/index.html,厚生労働省,関東信越厚生局 指導監査課,不定期,埼玉県
+112,医療,医科,11,"医療機関番号（関東信越）
+医科（茨城県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/documents/shitei_ibaraki_ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/index.html,厚生労働省,関東信越厚生局 茨城事務所,不定期,茨城県
+113,医療,医科,12,"医療機関番号（関東信越）
+医科（栃木県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tochigi/documents/2shitei_tochigi_ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tochigi/index.html,厚生労働省,関東信越厚生局 栃木事務所,不定期,栃木県
+114,医療,医科,13,"医療機関番号（関東信越）
+医科（群馬県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/documents/shitei-gunma-ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/index.html,厚生労働省,関東信越厚生局 群馬事務所,不定期,群馬県
+115,医療,医科,14,"医療機関番号（関東信越）
+医科（千葉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/documents/shitei_chiba_ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/index.html,厚生労働省,関東信越厚生局 千葉事務所,不定期,千葉県
+116,医療,医科,15,"医療機関番号（関東信越）
+医科１（東京県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/documents/shitei_tokyo_ika1.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/index.html,厚生労働省,関東信越厚生局 東京事務所,不定期,東京都
+117,医療,医科,16,"医療機関番号（関東信越）
+医科２（東京県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/documents/shitei_tokyo_ika2.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/index.html,厚生労働省,関東信越厚生局 東京事務所,不定期,東京都
+118,医療,医科,17,"医療機関番号（関東信越）
+医科（神奈川県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/documents/shitei_kanagawa_ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/index.html,厚生労働省,関東信越厚生局 神奈川事務所,不定期,神奈川県
+119,医療,医科,18,"医療機関番号（関東信越）
+医科併設（神奈川県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/documents/shitei_kanagawa_ikaheisetsu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/index.html,厚生労働省,関東信越厚生局 神奈川事務所,不定期,神奈川県
+120,医療,医科,19,"医療機関番号（関東信越）
+医科（新潟県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/documents/05_shitei_niigata_ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/index.html,厚生労働省,関東信越厚生局 新潟事務所,不定期,新潟県
+121,医療,医科,20,"医療機関番号（関東信越）
+医科（山梨県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/yamanashi/documents/ko-dobetuitirannika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/yamanashi/index.html,厚生労働省,関東信越厚生局 山梨事務所,不定期,山梨県
+122,医療,医科,21,"医療機関番号（関東信越）
+医科（長野県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/documents/shitei_nagano_ika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/index.html,厚生労働省,関東信越厚生局 長野事務所,不定期,長野県
+123,医療,医科,22,"医療機関番号（東海北陸）
+医科（冨山県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ika_toyama201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,富山県
+124,医療,医科,23,"医療機関番号（東海北陸）
+医科（石川県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ika_isikawa201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,石川県
+125,医療,医科,24,"医療機関番号（東海北陸）
+医科（岐阜県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ika_gihu201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,岐阜県
+126,医療,医科,25,"医療機関番号（東海北陸）
+医科（静岡県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ika_sizuoka201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,静岡県
+127,医療,医科,26,"医療機関番号（東海北陸）
+医科併設（静岡県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ikaheisetu_sizuoka201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,静岡県
+128,医療,医科,27,"医療機関番号（東海北陸）
+医科（愛知県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ika_aiti201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,愛知県
+129,医療,医科,28,"医療機関番号（東海北陸）
+医科併設（愛知県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ikaheisetu_aiti201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,愛知県
+130,医療,医科,29,"医療機関番号（東海北陸）
+医科（三重県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ika_mie201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,三重県
+131,医療,医科,30,"医療機関番号（東海北陸）
+医科併設（三重県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_ikaheisetu_mie201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,三重県
+132,医療,医科,31,"医療機関番号（近畿）
+医科（福井県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6fukui-kikanzentai-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　福井事務所,不定期,福井県
+133,医療,医科,32,"医療機関番号（近畿）
+医科（兵庫県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6hyougo-kikanzentai-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　兵庫事務所,不定期,兵庫県
+134,医療,医科,33,"医療機関番号（近畿）
+医科（滋賀県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6siga-kkikanzentai-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　滋賀事務所,不定期,滋賀県
+135,医療,医科,34,"医療機関番号（近畿）
+医科（奈良県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06nara-kikanzentai-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　奈良事務所,不定期,奈良県
+136,医療,医科,35,"医療機関番号（近畿）
+医科（京都府）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06kyouto-kikanzentai-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　京都事務所,不定期,京都府
+137,医療,医科,36,"医療機関番号（近畿）
+医科（和歌山県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06wakayama-kikanzentai-ika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　和歌山事務所,不定期,和歌山県
+138,医療,医科,37,"医療機関番号（近畿）
+医科No1（大阪府）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6oosaka-kikanzentai-ika1.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　指導監査課,不定期,大阪府
+139,医療,医科,38,"医療機関番号（近畿）
+医科No2（大阪府）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6oosaka-kikanzentai-ika2.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　指導監査課,不定期,大阪府
+140,医療,医科,39,"医療機関番号（近畿）
+医科（鳥取県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/31zen2606-1.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,鳥取県
+141,医療,医科,40,"医療機関番号（近畿）
+医科（島根県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/32zen2606-1.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,島根県
+142,医療,医科,41,"医療機関番号（近畿）
+医科（岡山県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/33zen2606-1.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,岡山県
+143,医療,医科,42,"医療機関番号（近畿）
+医科（広島県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/34zen2606-1.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,広島県
+144,医療,医科,43,"医療機関番号（近畿）
+医科（山口県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/35zen2606-1.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,山口県
+145,医療,医科,44,"医療機関番号（近畿）
+医科（香川県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_01.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,香川県
+146,医療,医科,45,"医療機関番号（近畿）
+医科（徳島県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_04.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,徳島県
+147,医療,医科,46,"医療機関番号（近畿）
+医科（愛媛県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_07.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,愛媛県
+148,医療,医科,47,"医療機関番号（近畿）
+医科（高知県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_10.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,高知県
+149,医療,医科,48,"医療機関番号（近畿）
+医科（福岡県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/hukuoka_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　指導監査課,不定期,福岡県
+150,医療,医科,49,"医療機関番号（近畿）
+医科（佐賀県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/saga_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　佐賀事務所,不定期,佐賀県
+151,医療,医科,50,"医療機関番号（近畿）
+医科（長崎県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/nagasaki_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　長崎事務所,不定期,長崎県
+152,医療,医科,51,"医療機関番号（近畿）
+医科（熊本県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/kumamoto_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　熊本事務所,不定期,熊本県
+153,医療,医科,52,"医療機関番号（近畿）
+医科（大分県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/ooita_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　大分事務所,不定期,大分県
+154,医療,医科,53,"医療機関番号（近畿）
+医科（宮崎県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/miyazaki_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　宮崎事務所,不定期,宮崎県
+155,医療,医科,54,"医療機関番号（近畿）
+医科（鹿児島県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/kagoshima_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　鹿児島事務所,不定期,鹿児島県
+156,医療,医科,55,"医療機関番号（近畿）
+医科（沖縄県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/okinawa_ika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　沖縄事務所,不定期,沖縄県
+157,医療,歯科,1,"医療機関番号（北海道）
+歯科（札幌市内）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-sika01.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+158,医療,歯科,2,"医療機関番号（北海道）
+歯科（函館市、小樽市、旭川市）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-sika02.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+159,医療,歯科,3,"医療機関番号（北海道）
+歯科（上記以外の市町村）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-sika03.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+160,医療,歯科,4,"医療機関番号（東北）
+歯科（青森県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-aomori-shika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,青森県
+161,医療,歯科,5,"医療機関番号（東北）
+歯科併設（青森県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-aomori-heisetsu.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,青森県
+162,医療,歯科,6,"医療機関番号（東北）
+歯科（岩手県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-iwate-shika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,岩手県
+163,医療,歯科,7,"医療機関番号（東北）
+歯科併設（岩手県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-iwate-heisetsu.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,岩手県
+164,医療,歯科,8,"医療機関番号（東北）
+歯科（宮城県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-miyagi-shika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,宮城県
+165,医療,歯科,9,"医療機関番号（東北）
+歯科併設（宮城県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-miyagi-heisetsu.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,宮城県
+166,医療,歯科,10,"医療機関番号（東北）
+歯科（秋田県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-akita-shika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,秋田県
+167,医療,歯科,11,"医療機関番号（東北）
+歯科併設（秋田県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-akita-heisetsu.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,秋田県
+168,医療,歯科,12,"医療機関番号（東北）
+歯科（山形県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-yamagata-shika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,山形県
+169,医療,歯科,13,"医療機関番号（東北）
+歯科併設（山形県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-yamagata-heisetsu.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,山形県
+170,医療,歯科,14,"医療機関番号（東北）
+歯科（福島県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-fukushima-shika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,福島県
+171,医療,歯科,15,"医療機関番号（東北）
+歯科併設（福島県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-fukushima-heisetsu.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,福島県
+172,医療,歯科,16,"医療機関番号（関東信越）
+歯科（埼玉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/documents/shitei_shido_kansa_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/index.html,厚生労働省,関東信越厚生局 指導監査課,不定期,埼玉県
+173,医療,歯科,17,"医療機関番号（関東信越）
+歯科併設（埼玉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/documents/shitei_shido_kansa_shikaheisetsu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/index.html,厚生労働省,関東信越厚生局 指導監査課,不定期,埼玉県
+174,医療,歯科,18,"医療機関番号（関東信越）
+歯科（茨城県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/documents/shitei_ibaraki_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/index.html,厚生労働省,関東信越厚生局 茨城事務所,不定期,茨城県
+175,医療,歯科,19,"医療機関番号（関東信越）
+歯科併設（茨城県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/documents/shitei_ibaraki_shikaheisetsu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/index.html,厚生労働省,関東信越厚生局 茨城事務所,不定期,茨城県
+176,医療,歯科,20,"医療機関番号（関東信越）
+歯科（栃木県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tochigi/documents/4shitei_tochigi_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tochigi/index.html,厚生労働省,関東信越厚生局 栃木事務所,不定期,栃木県
+177,医療,歯科,21,"医療機関番号（関東信越）
+歯科（群馬県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/documents/shitei-gunma-sika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/index.html,厚生労働省,関東信越厚生局 群馬事務所,不定期,群馬県
+178,医療,歯科,22,"医療機関番号（関東信越）
+歯科併設（群馬県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/documents/shitei-gunma-heisetu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/index.html,厚生労働省,関東信越厚生局 群馬事務所,不定期,群馬県
+179,医療,歯科,23,"医療機関番号（関東信越）
+歯科（千葉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/documents/shitei_chiba_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/index.html,厚生労働省,関東信越厚生局 千葉事務所,不定期,千葉県
+180,医療,歯科,24,"医療機関番号（関東信越）
+歯科併設（千葉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/documents/shitei_chiba_shikaheisetsu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/index.html,厚生労働省,関東信越厚生局 千葉事務所,不定期,千葉県
+181,医療,歯科,25,"医療機関番号（関東信越）
+歯科（東京県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/documents/shitei_tokyo_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/index.html,厚生労働省,関東信越厚生局 東京事務所,不定期,東京都
+182,医療,歯科,26,"医療機関番号（関東信越）
+歯科（神奈川県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/documents/shitei_kanagawa_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/index.html,厚生労働省,関東信越厚生局 神奈川事務所,不定期,神奈川県
+183,医療,歯科,27,"医療機関番号（関東信越）
+歯科併設（神奈川県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/documents/shitei_kanagawa_shikaheisetsu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/index.html,厚生労働省,関東信越厚生局 神奈川事務所,不定期,神奈川県
+184,医療,歯科,28,"医療機関番号（関東信越）
+歯科（新潟県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/documents/06_shitei_niigata_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/index.html,厚生労働省,関東信越厚生局 新潟事務所,不定期,新潟県
+185,医療,歯科,29,"医療機関番号（関東信越）
+歯科併設（新潟県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/documents/08_shitei_niigata_shikaheisetsu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/index.html,厚生労働省,関東信越厚生局 新潟事務所,不定期,新潟県
+186,医療,歯科,30,"医療機関番号（関東信越）
+歯科（山梨県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/yamanashi/documents/ko-dobetuitirannsika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/yamanashi/index.html,厚生労働省,関東信越厚生局 山梨事務所,不定期,山梨県
+187,医療,歯科,31,"医療機関番号（関東信越）
+歯科（長野県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/documents/shitei_nagano_shika.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/index.html,厚生労働省,関東信越厚生局 長野事務所,不定期,長野県
+188,医療,歯科,32,"医療機関番号（関東信越）
+歯科併設（長野県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/documents/shitei_nagano_shikaheisetsu.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/index.html,厚生労働省,関東信越厚生局 長野事務所,不定期,長野県
+189,医療,歯科,33,"医療機関番号（東海北陸）
+歯科（冨山県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sika_toyama201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,富山県
+190,医療,歯科,34,"医療機関番号（東海北陸）
+歯科併設（冨山県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sikaheisetu_toyama201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,富山県
+191,医療,歯科,35,"医療機関番号（東海北陸）
+歯科（石川県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sika_isikawa201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,石川県
+192,医療,歯科,36,"医療機関番号（東海北陸）
+歯科併設（石川県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sikaheisetu_isikawa201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,石川県
+193,医療,歯科,37,"医療機関番号（東海北陸）
+歯科（岐阜県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sika_gihu201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,岐阜県
+194,医療,歯科,38,"医療機関番号（東海北陸）
+歯科併設（岐阜県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sikaheisetu_gihu201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,岐阜県
+195,医療,歯科,39,"医療機関番号（東海北陸）
+歯科（静岡県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sika_sizuoka201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,静岡県
+196,医療,歯科,40,"医療機関番号（東海北陸）
+歯科併設（静岡県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sikaheisetu_sizuoka201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,静岡県
+197,医療,歯科,41,"医療機関番号（東海北陸）
+歯科（愛知県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sika_aiti201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,愛知県
+198,医療,歯科,42,"医療機関番号（東海北陸）
+歯科併設（愛知県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sikaheisetu_aiti201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,愛知県
+199,医療,歯科,43,"医療機関番号（東海北陸）
+歯科（三重県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sika_mie201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,三重県
+200,医療,歯科,44,"医療機関番号（東海北陸）
+歯科併設（三重県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_sikaheisetu_mie201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,三重県
+201,医療,歯科,45,"医療機関番号（近畿）
+歯科（福井県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6fukui-kikanzentai-sika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　福井事務所,不定期,福井県
+202,医療,歯科,46,"医療機関番号（近畿）
+歯科（兵庫県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6hyougo-kikanzentai-sika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　兵庫事務所,不定期,兵庫県
+203,医療,歯科,47,"医療機関番号（近畿）
+歯科（滋賀県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6siga-kikanzentai-sika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　滋賀事務所,不定期,滋賀県
+204,医療,歯科,48,"医療機関番号（近畿）
+歯科（奈良県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06nara-kikanzentai-sika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　奈良事務所,不定期,奈良県
+205,医療,歯科,49,"医療機関番号（近畿）
+歯科（京都府）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06kyouto-kikanzentai-sika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　京都事務所,不定期,京都府
+206,医療,歯科,50,"医療機関番号（近畿）
+歯科（和歌山県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06wakayama-kikanzentai-sika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　和歌山事務所,不定期,和歌山県
+207,医療,歯科,51,"医療機関番号（近畿）
+歯科（大阪府）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6oosaka-kikanzentai-sika.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　指導監査課,不定期,大阪府
+208,医療,歯科,52,"医療機関番号（近畿）
+歯科（鳥取県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/31zen2606-2.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,鳥取県
+209,医療,歯科,53,"医療機関番号（近畿）
+歯科（島根県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/32zen2606-2.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,島根県
+210,医療,歯科,54,"医療機関番号（近畿）
+歯科（岡山県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/33zen2606-2.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,岡山県
+211,医療,歯科,55,"医療機関番号（近畿）
+歯科（広島県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/34zen2606-2.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,広島県
+212,医療,歯科,56,"医療機関番号（近畿）
+歯科（山口県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/35zen2606-2.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,山口県
+213,医療,歯科,57,"医療機関番号（近畿）
+歯科（香川県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_02.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,香川県
+214,医療,歯科,58,"医療機関番号（近畿）
+歯科（徳島県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_05.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,徳島県
+215,医療,歯科,59,"医療機関番号（近畿）
+歯科（愛媛県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_08.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,愛媛県
+216,医療,歯科,60,"医療機関番号（近畿）
+歯科（高知県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_11.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,高知県
+217,医療,歯科,61,"医療機関番号（近畿）
+歯科（福岡県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/hukuoka_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　指導監査課,不定期,福岡県
+218,医療,歯科,62,"医療機関番号（近畿）
+歯科（佐賀県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/saga_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　佐賀事務所,不定期,佐賀県
+219,医療,歯科,63,"医療機関番号（近畿）
+歯科（長崎県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/nagasaki_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　長崎事務所,不定期,長崎県
+220,医療,歯科,64,"医療機関番号（近畿）
+歯科（熊本県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/kumamoto_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　熊本事務所,不定期,熊本県
+221,医療,歯科,65,"医療機関番号（近畿）
+歯科（大分県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/ooita_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　大分事務所,不定期,大分県
+222,医療,歯科,66,"医療機関番号（近畿）
+歯科（宮崎県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/miyazaki_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　宮崎事務所,不定期,宮崎県
+223,医療,歯科,67,"医療機関番号（近畿）
+歯科（鹿児島県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/kagoshima_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　鹿児島事務所,不定期,鹿児島県
+224,医療,歯科,68,"医療機関番号（近畿）
+歯科（沖縄県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/okinawa_shika_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　沖縄事務所,不定期,沖縄県
+225,医療,薬局,1,"医療機関番号（北海道）
+薬局（札幌市内）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-yakka01.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+226,医療,薬局,2,"医療機関番号（北海道）
+薬局（函館市、小樽市、旭川市）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-yakka02.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+227,医療,薬局,3,"医療機関番号（北海道）
+薬局（上記以外の市町村）",http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/documents/area-yakka03.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/hokkaido/gyomu/gyomu/hoken_kikan/zentai_ichiran.html,厚生労働省,北海道厚生局 医療課,不定期,北海道
+228,医療,薬局,4,"医療機関番号（東北）
+薬局（青森県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-aomori-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,青森県
+229,医療,薬局,5,"医療機関番号（東北）
+薬局（岩手県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-iwate-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,岩手県
+230,医療,薬局,6,"医療機関番号（東北）
+薬局（宮城県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-miyagi-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,宮城県
+231,医療,薬局,7,"医療機関番号（東北）
+薬局（秋田県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-akita-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,秋田県
+232,医療,薬局,8,"医療機関番号（東北）
+薬局（山形県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-yamagata-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,山形県
+233,医療,薬局,9,"医療機関番号（東北）
+薬局（福島県）",http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/documents/shitei-fukushima-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tohoku/gyomu/gyomu/hoken_kikan/itiran.html,厚生労働省,東北厚生局 医療課,不定期,福島県
+234,医療,薬局,10,"医療機関番号（関東信越）
+薬局（埼玉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/documents/shitei_shido_kansa_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/shido_kansa/index.html,厚生労働省,関東信越厚生局 指導監査課,不定期,埼玉県
+235,医療,薬局,11,"医療機関番号（関東信越）
+薬局（茨城県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/documents/shitei_ibaraki_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/ibaraki/index.html,厚生労働省,関東信越厚生局 茨城事務所,不定期,茨城県
+236,医療,薬局,12,"医療機関番号（関東信越）
+薬局（栃木県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tochigi/documents/6shitei_tochigi_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tochigi/index.html,厚生労働省,関東信越厚生局 栃木事務所,不定期,栃木県
+237,医療,薬局,13,"医療機関番号（関東信越）
+薬局（群馬県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/documents/shite-guma-yaku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/gunma/index.html,厚生労働省,関東信越厚生局 群馬事務所,不定期,群馬県
+238,医療,薬局,14,"医療機関番号（関東信越）
+薬局（千葉県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/documents/shitei_chiba_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/chiba/index.html,厚生労働省,関東信越厚生局 千葉事務所,不定期,千葉県
+239,医療,薬局,15,"医療機関番号（関東信越）
+薬局（東京県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/documents/shitei_tokyo_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/tokyo/index.html,厚生労働省,関東信越厚生局 東京事務所,不定期,東京都
+240,医療,薬局,16,"医療機関番号（関東信越）
+薬局（神奈川県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/documents/shitei_kanagawa_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/kanagawa/index.html,厚生労働省,関東信越厚生局 神奈川事務所,不定期,神奈川県
+241,医療,薬局,17,"医療機関番号（関東信越）
+薬局（新潟県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/documents/07_shitei_niigata_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/niigata/index.html,厚生労働省,関東信越厚生局 新潟事務所,不定期,新潟県
+242,医療,薬局,18,"医療機関番号（関東信越）
+薬局（山梨県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/yamanashi/documents/ko-dobetuitirannyaku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/yamanashi/index.html,厚生労働省,関東信越厚生局 山梨事務所,不定期,山梨県
+243,医療,薬局,19,"医療機関番号（関東信越）
+薬局（長野県）",http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/documents/shitei_nagano_yakkyoku.xls,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kantoshinetsu/gyomu/bu_ka/nagano/index.html,厚生労働省,関東信越厚生局 長野事務所,不定期,長野県
+244,医療,薬局,20,"医療機関番号（東海北陸）
+薬局（冨山県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_yakkyoku_toyama201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,富山県
+245,医療,薬局,21,"医療機関番号（東海北陸）
+薬局（石川県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_yakkyoku_isikawa201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,石川県
+246,医療,薬局,22,"医療機関番号（東海北陸）
+薬局（岐阜県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_yakkyoku_gihu201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,岐阜県
+247,医療,薬局,23,"医療機関番号（東海北陸）
+薬局（静岡県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_yakkyoku_sizuoka201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,静岡県
+248,医療,薬局,24,"医療機関番号（東海北陸）
+薬局（愛知県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_yakkyoku_aiti201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,愛知県
+249,医療,薬局,25,"医療機関番号（東海北陸）
+薬局（三重県）",http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/documents/zen_yakkyoku_mie201406.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/tokaihokuriku/gyomu/gyomu/hoken_kikan/shitei.html,厚生労働省,東海北陸厚生局　調査課,不定期,三重県
+250,医療,薬局,26,"医療機関番号（近畿）
+薬局（福井県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6fukui-kikanzentai-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　福井事務所,不定期,福井県
+251,医療,薬局,27,"医療機関番号（近畿）
+薬局（兵庫県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6hyougo-kikanzentai-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　兵庫事務所,不定期,兵庫県
+252,医療,薬局,28,"医療機関番号（近畿）
+薬局（滋賀県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6siga-kikanzentai-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　滋賀事務所,不定期,滋賀県
+253,医療,薬局,29,"医療機関番号（近畿）
+薬局（奈良県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06nara-kikanzentai-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　奈良事務所,不定期,奈良県
+254,医療,薬局,30,"医療機関番号（近畿）
+薬局（京都府）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06kyouto-kikanzentai-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　京都事務所,不定期,京都府
+255,医療,薬局,31,"医療機関番号（近畿）
+薬局（和歌山県）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/06wakayama-kikanzentai-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　和歌山事務所,不定期,和歌山県
+256,医療,薬局,32,"医療機関番号（近畿）
+薬局（大阪府）",https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/documents/6oosaka-kikanzentai-yakkyoku.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/kinki/gyomu/gyomu/hoken_kikan/shitei_jokyo.html,厚生労働省,近畿厚生局　指導監査課,不定期,大阪府
+257,医療,薬局,33,"医療機関番号（近畿）
+薬局（鳥取県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/31zen2606-3.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,鳥取県
+258,医療,薬局,34,"医療機関番号（近畿）
+薬局（島根県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/32zen2606-3.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,島根県
+259,医療,薬局,35,"医療機関番号（近畿）
+薬局（岡山県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/33zen2606-3.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,岡山県
+260,医療,薬局,36,"医療機関番号（近畿）
+薬局（広島県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/34zen2606-3.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,広島県
+261,医療,薬局,37,"医療機関番号（近畿）
+薬局（山口県）",https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/documents/35zen2606-3.xlsx,xls,地方厚生局が管理する医科、歯科、薬局の機関番号,https://kouseikyoku.mhlw.go.jp/chugokushikoku/chousaka/chousaka01.html,厚生労働省,中国四国厚生局　調査課,不定期,山口県
+262,医療,薬局,38,"医療機関番号（近畿）
+薬局（香川県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_03.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,香川県
+263,医療,薬局,39,"医療機関番号（近畿）
+薬局（徳島県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_06.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,徳島県
+264,医療,薬局,40,"医療機関番号（近畿）
+薬局（愛媛県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_09.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,愛媛県
+265,医療,薬局,41,"医療機関番号（近畿）
+薬局（高知県）",http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/documents/01_12.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/shikoku/gyomu/gyomu/hoken_kikan/shitei/index.html,厚生労働省,四国厚生局　調査課,不定期,高知県
+266,医療,薬局,42,"医療機関番号（近畿）
+薬局（福岡県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/hukuoka_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　指導監査課,不定期,福岡県
+267,医療,薬局,43,"医療機関番号（近畿）
+薬局（佐賀県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/saga_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　佐賀事務所,不定期,佐賀県
+268,医療,薬局,44,"医療機関番号（近畿）
+薬局（長崎県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/nagasaki_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　長崎事務所,不定期,長崎県
+269,医療,薬局,45,"医療機関番号（近畿）
+薬局（熊本県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/kumamoto_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　熊本事務所,不定期,熊本県
+270,医療,薬局,46,"医療機関番号（近畿）
+薬局（大分県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/ooita_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　大分事務所,不定期,大分県
+271,医療,薬局,47,"医療機関番号（近畿）
+薬局（宮崎県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/miyazaki_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　宮崎事務所,不定期,宮崎県
+272,医療,薬局,48,"医療機関番号（近畿）
+薬局（鹿児島県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/kagoshima_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　鹿児島事務所,不定期,鹿児島県
+273,医療,薬局,49,"医療機関番号（近畿）
+薬局（沖縄県）",http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/documents/okinawa_yakkyoku_.pdf,pdf,地方厚生局が管理する医科、歯科、薬局の機関番号,http://kouseikyoku.mhlw.go.jp/kyushu/gyomu/gyomu/hoken_kikan/index.html,厚生労働省,九州厚生局　沖縄事務所,不定期,沖縄県
+274,医療,保健所,1,保健所･市区町村コード（21大都市）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996815,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,
+275,医療,保健所,2,保健所･市区町村コード（北海道）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996864,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,北海道
+276,医療,保健所,3,保健所･市区町村コード（青森県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996816,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,青森県
+277,医療,保健所,4,保健所･市区町村コード（岩手県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996832,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,岩手県
+278,医療,保健所,5,保健所･市区町村コード（宮城県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996865,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,宮城県
+279,医療,保健所,6,保健所･市区町村コード（秋田県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996817,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,秋田県
+280,医療,保健所,7,保健所･市区町村コード（山形県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996833,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,山形県
+281,医療,保健所,8,保健所･市区町村コード（福島県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996866,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,福島県
+282,医療,保健所,9,保健所･市区町村コード（茨城県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996818,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,茨城県
+283,医療,保健所,10,保健所･市区町村コード（栃木県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996834,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,栃木県
+284,医療,保健所,11,保健所･市区町村コード（群馬県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996867,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,群馬県
+285,医療,保健所,12,保健所･市区町村コード（埼玉県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996819,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,埼玉県
+286,医療,保健所,13,保健所･市区町村コード（千葉県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996835,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,千葉県
+287,医療,保健所,14,保健所･市区町村コード（東京都）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996868,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,東京都
+288,医療,保健所,15,保健所･市区町村コード（神奈川県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996820,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,神奈川県
+289,医療,保健所,16,保健所･市区町村コード（新潟県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996836,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,新潟県
+290,医療,保健所,17,保健所･市区町村コード（山梨県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996838,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,山梨県
+291,医療,保健所,18,保健所･市区町村コード（長野県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996886,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,長野県
+292,医療,保健所,19,保健所･市区町村コード（富山県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996884,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,富山県
+293,医療,保健所,20,保健所･市区町村コード（石川県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996837,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,石川県
+294,医療,保健所,21,保健所･市区町村コード（福井県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996885,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,福井県
+295,医療,保健所,22,保健所･市区町村コード（岐阜県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996823,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,岐阜県
+296,医療,保健所,23,保健所･市区町村コード（静岡県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996871,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,静岡県
+297,医療,保健所,24,保健所･市区町村コード（愛知県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996904,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,愛知県
+298,医療,保健所,25,保健所･市区町村コード（三重県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996872,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,三重県
+299,医療,保健所,26,保健所･市区町村コード（滋賀県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996841,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,滋賀県
+300,医療,保健所,27,保健所･市区町村コード（京都府）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996888,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,京都府
+301,医療,保健所,28,保健所･市区町村コード（大阪府）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996905,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,大阪府
+302,医療,保健所,29,保健所･市区町村コード（兵庫県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996873,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,兵庫県
+303,医療,保健所,30,保健所･市区町村コード（奈良県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996889,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,奈良県
+304,医療,保健所,31,保健所･市区町村コード（和歌山県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996842,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,和歌山県
+305,医療,保健所,32,保健所･市区町村コード（鳥取県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996890,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,鳥取県
+306,医療,保健所,33,保健所･市区町村コード（島根県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996843,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,島根県
+307,医療,保健所,34,保健所･市区町村コード（岡山県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996874,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,岡山県
+308,医療,保健所,35,保健所･市区町村コード（広島県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996891,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,広島県
+309,医療,保健所,36,保健所･市区町村コード（山口県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996924,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,山口県
+310,医療,保健所,37,保健所･市区町村コード（徳島県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996907,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,徳島県
+311,医療,保健所,38,保健所･市区町村コード（香川県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996909,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,香川県
+312,医療,保健所,39,保健所･市区町村コード（愛媛県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996911,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,愛媛県
+313,医療,保健所,40,保健所･市区町村コード（高知県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996913,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,高知県
+314,医療,保健所,41,保健所･市区町村コード（福岡県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996915,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,福岡県
+315,医療,保健所,42,保健所･市区町村コード（佐賀県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996917,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,佐賀県
+316,医療,保健所,43,保健所･市区町村コード（長崎県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996918,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,長崎県
+317,医療,保健所,44,保健所･市区町村コード（熊本県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996920,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,熊本県
+318,医療,保健所,45,保健所･市区町村コード（大分県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996922,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,大分県
+319,医療,保健所,46,保健所･市区町村コード（宮崎県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996892,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,宮崎県
+320,医療,保健所,47,保健所･市区町村コード（鹿児島県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996894,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,鹿児島県
+321,医療,保健所,48,保健所･市区町村コード（沖縄県）,http://www.e-stat.go.jp/SG1/estat/Csvdl.do?sinfid=000021996896,csv,人口動態調査、地域保健・健康増進事業報告に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,沖縄県
+322,教育,大学,1,大学・高等専門学校コード(JISX0408),※リンク不可,pdf,データ処理機械を用いて機械と機械，機械と人との間で情報を交換する場合の大学・高等専門学校コードについて規定したもの,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0408,,財団法人　日本規格協会,不定期,
+323,教育,高等学校,1,高等学校等コード表,http://www.dnc.ac.jp/albums/abm.php?f=abm00000401.pdf&n=%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E7%AD%89%E3%82%B3%E3%83%BC%E3%83%89%E8%A1%A8.pdf,pdf,大学入試センター用,,,独立行政法人大学入試センター,不定期,
+324,教育,高等学校学科,1,高等学校及び中等教育学校（後期課程）の学科コード表,http://www.mext.go.jp/b_menu/toukei/001/08010901/006/001.htm,html,平成19年度学校基本調査に使用する学科コード表,http://www.mext.go.jp/b_menu/toukei/001/08010901/006.htm,文部科学省,文部科学省生涯学習政策局政策課,不定期,
+325,教育,特別支援学科,1,特別支援学校高等部の学科コード表,http://www.mext.go.jp/b_menu/toukei/001/08010901/006/002.htm,html,平成19年度学校基本調査に使用する学科コード表,http://www.mext.go.jp/b_menu/toukei/001/08010901/006.htm,文部科学省,文部科学省生涯学習政策局政策課,不定期,
+326,教育,専修学校学科,1,専修学校の学科及び各種学校の課程のコード表,http://www.mext.go.jp/b_menu/toukei/001/08010901/006/003.htm,html,平成19年度学校基本調査に使用する課程コード表,http://www.mext.go.jp/b_menu/toukei/001/08010901/006.htm,文部科学省,文部科学省生涯学習政策局政策課,不定期,
+327,統計・調査,年齢区分,1,"年齢
+（平成22年国勢調査　人口等基本集計　分類項目一覧）",http://www.e-stat.go.jp/SG1/estat/GL08020103.do?_xlsDownload_&fileId=000005031783&releaseCount=2,xls,※5歳階級が使われることが多く、「0-4歳」・・・・と5歳区切りで集計（添付ファイル国勢調査分類項目参照）,http://www.e-stat.go.jp/SG1/estat/GL08020101.do?_toGL08020101_&tstatCode=000001039448,総務省,総務省統計局統計調査部国勢統計課審査発表係,5年単位,
+328,その他,その他,1,地域メッシュコード(JISX0410),※リンク不可,pdf,個々の地域メッシュを区別するため一定の付番規則に従って付けられたコード番号,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0410,,,不定期,
+329,その他,その他,2,土地利用分類コード,http://www1.gsi.go.jp/geowww/LandUse/lu_10_schema_files/code.html,html,宅地利用動向調査に使用する土地利用データの分類コード,http://www1.gsi.go.jp/geowww/LandUse/lum-takudo.html,国土交通省,国土地理院,不定期,
+330,その他,その他,3,土地利用種別コード,http://nlftp.mlit.go.jp/ksj/jpgis/codelist/LandUseCd-YY.html,html,全国の土地利用の状況について、3次メッシュ1/10細分区画（100mメッシュ）毎に、各利用区分（田、畑、果樹園、森林、荒地、建物用地、幹線交通用地、湖沼、河川等）を整備した際の利用種別コード,http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-L03-b.html,国土交通省,国土交通省国土政策局国土情報課,不定期,
+331,その他,その他,4,地目コード(JISX0411) ,※リンク不可,pdf,不動産登記法上の土地の用途による分類を示すコード,http://www.jisc.go.jp/app/pager?id=31259&%23jps.JPSH0090D:JPSO0023:/JPS/JPSO0090.jsp=&AKKNB_vJISJISNO=X0411,,,不定期,
+332,その他,その他,5,"郵便番号
+（読み仮名データの促音・拗音を小書きで表記しないもの・全国一括）",http://www.post.japanpost.jp/zipcode/dl/oogaki/lzh/ken_all.lzh,lzh,郵便物の分類や配達業務のために宛先（住所や所在地）に加えて使用する番号コード,http://www.post.japanpost.jp/zipcode/download.html,総務省,日本郵便株式会社,不定期,
+333,その他,その他,6,"郵便番号
+（読み仮名データの促音・拗音を小書きで表記するもの・全国一括）",http://www.post.japanpost.jp/zipcode/dl/kogaki/lzh/ken_all.lzh,lzh,郵便物の分類や配達業務のために宛先（住所や所在地）に加えて使用する番号コード,http://www.post.japanpost.jp/zipcode/download.html,総務省,日本郵便株式会社,不定期,
+334,その他,その他,7,"郵便番号
+（ローマ字・全国一括）",http://www.post.japanpost.jp/zipcode/dl/roman/ken_all_rome.lzh,lzh,郵便物の分類や配達業務のために宛先（住所や所在地）に加えて使用する番号コード,http://www.post.japanpost.jp/zipcode/download.html,総務省,日本郵便株式会社,不定期,
+335,その他,その他,8,"郵便番号
+（事業所の個別郵便番号）",http://www.post.japanpost.jp/zipcode/dl/jigyosyo/lzh/jigyosyo.lzh,lzh,郵便物の分類や配達業務のために宛先（住所や所在地）に加えて使用する番号コード,http://www.post.japanpost.jp/zipcode/download.html,総務省,日本郵便株式会社,不定期,
+336,その他,その他,9,地域コード,http://www.data.go.jp/data/storage/f/2013-12-17T00%3A22%3A26.600Z/mof13code_9.xlsx,xls,法人企業統計調査、法人企業景気予測調査に使用する地域コード,http://www.mof.go.jp/pri/reference/bos/index.htm,財務省,財務総合政策研究所調査統計部景気予測調査係,不定期,
+337,その他,その他,10,水域コード,https://www2.env.go.jp/water-pub/mizu-site/mizu/download/kousui/kousui_y_manual.pdf,pdf,「公共用水域の水質測定」に使用する水域コード,http://www.env.go.jp/water/suiiki/index.html,環境省,環境省水大気環境局,不定期,
+338,その他,その他,11,政府統計コード,http://www.stat.go.jp/info/guide/public/keikaku/pdf/beshi1.pdf,pdf,各政府統計に付与されたコード,http://www.stat.go.jp/info/guide/public/,総務省,総務省統計局統計情報システム課　最適化推進担当,不定期,
+339,その他,その他,12,統計用語（エネルギー統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+340,その他,その他,13,統計用語（金融統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+341,その他,その他,14,統計用語（公共管理）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+342,その他,その他,15,統計用語（情報通信技術）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+343,その他,その他,16,統計用語（頭字語）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+344,その他,その他,17,統計用語（労働統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+345,その他,その他,18,統計用語（価格及び購買力平価）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+346,その他,その他,19,統計用語（科学技術統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+347,その他,その他,20,統計用語（教育訓練統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+348,その他,その他,21,統計用語（保健統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+349,その他,その他,22,統計用語（国際貿易統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+350,その他,その他,23,統計用語（国民経済計算）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+351,その他,その他,24,統計用語（産業及びサービス統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+352,その他,その他,25,統計用語（社会・福祉統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+353,その他,その他,26,統計用語（人口分析及び人口統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+354,その他,その他,27,統計用語（短期経済統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+355,その他,その他,28,統計用語（農業・漁業統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+356,その他,その他,29,統計用語（非加盟国）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+357,その他,その他,30,統計用語（品質、統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+358,その他,その他,31,統計用語（分類）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+359,その他,その他,32,統計用語（方法論的情報（メタデータ））,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+360,その他,その他,33,統計用語（輸送統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+361,その他,その他,34,統計用語（環境統計）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+362,その他,その他,35,統計用語（その他）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+363,その他,その他,36,統計用語（データ・エディティング）,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+364,その他,その他,37,統計用語（方法論的研究（開示抑制））,※リンク不可,html,統計項目の用語解説とコード,https://www.e-stat.go.jp/SG1/htoukeib/TopDisp.do?bKind=90,総務省,総務省統計局,不定期,
+365,その他,その他,38,自治体中間標準レイアウト（表形式）,http://www.soumu.go.jp/main_content/000181703.zip,zip,全国の自治体が共通的に利用できる中間標準レイアウトとコード（属性に関するコード）,http://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/lg-cloud/02kiban07_03000024.html,総務省,総務省総合通信基盤局高度通信網振興課,不定期,
+366,その他,その他,39,自治体中間標準レイアウト（XML形式）,http://www.soumu.go.jp/main_content/000181704.zip,zip,全国の自治体が共通的に利用できる中間標準レイアウトとコード（属性に関するコード）,http://www.soumu.go.jp/main_sosiki/jichi_gyousei/c-gyousei/lg-cloud/02kiban07_03000024.html,総務省,総務省総合通信基盤局高度通信網振興課,不定期,
+367,その他,その他,40,文字コード（xlsx形式）,http://dl.mojikiban.ipa.go.jp/MJMojiJouhouIchiranhyou00301-xlsx.zip,zip,日本語に関する各種コードの相互連携表,ossipedia.ipa.go.jp/ipamjfont/mjmojiichiran/index.html,経済産業省,独立行政法人情報処理推進機構,不定期,
+368,その他,その他,41,文字コード（ods形式）,http://dl.mojikiban.ipa.go.jp/MJMojiJouhouIchiranhyou00301-ods.zip,zip,日本語に関する各種コードの相互連携表,ossipedia.ipa.go.jp/ipamjfont/mjmojiichiran/index.html,経済産業省,独立行政法人情報処理推進機構,不定期,
+369,その他,その他,42,地域番号一覧,http://www.data.go.jp/data/storage/f/2013-12-16T22%3A22%3A32.818Z/jinji13code_3.xlsx,xls,国家公務員給与等実態調査に用いる番号,http://www.jinji.go.jp/toukei/0312_koumuinkyuuyo/koumuinkyuuyo.htm,人事院,人事院給与局給与第一課調査第二班,不定期,
+370,その他,その他,43,登録番号,非公表,-,景気ウォッチャー調査に用いる番号,http://www5.cao.go.jp/keizai3/watcher/watcher_menu.html,内閣府,内閣府政策統括官（経済財政分析担当）付参事官（地域担当）付,不定期,
+371,その他,その他,44,税関符号表,http://www.customs.go.jp/toukei/sankou/dgorder/a2.htm,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/dgorder/ts_dg_or.htm,財務省,財務省関税局,不定期,
+372,その他,その他,45,船（機）籍符号表,http://www.customs.go.jp/toukei/sankou/dgorder/a4.htm,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/dgorder/ts_dg_or.htm,財務省,財務省関税局,不定期,
+373,その他,その他,46,貿易形態別符号表,http://www.customs.go.jp/toukei/sankou/dgorder/a5.htm,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/dgorder/ts_dg_or.htm,財務省,財務省関税局,不定期,
+374,その他,その他,47,特恵税率適用符号表,http://www.customs.go.jp/toukei/sankou/dgorder/a6.htm,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/dgorder/ts_dg_or.htm,財務省,財務省関税局,不定期,
+375,その他,その他,48,減免税条項等符号表,http://www.customs.go.jp/toukei/sankou/dgorder/a7.htm,html,外国貿易等に関する統計に使用するコード,http://www.customs.go.jp/toukei/sankou/dgorder/ts_dg_or.htm,財務省,財務省関税局,不定期,
+376,その他,その他,49,局署番号,非公表,-,各種税務統計に使用する番号,非公表,財務省,,不定期,
+377,その他,その他,50,地区コード,非公表,-,文教施設工事情報発注見通し・入札公告・入札結果・指名停止・工事成績情報に使用するコード,http://sisetuweb1.mext.go.jp/procure/index.html,文部科学省,文部科学省,不定期,
+378,その他,その他,51,水道台帳番号,非公表,-,水道統計等に使用する番号,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/topics/bukyoku/kenkou/suido/database/kihon/index.html,厚生労働省,厚生労働省,不定期,
+379,その他,その他,52,指定都市・中核市コード,http://www.data.go.jp/data/storage/f/2014-03-03T09%3A20%3A31.666Z/mhlw13code_16.xlsx,xls,衛生行政報告例、地域保健・健康増進事業報告、福祉行政報告例、社会福祉施設等調査、介護サービス施設・事業所調査に使用するコード,http://www.mhlw.go.jp/toukei/list/36-19.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課行政報告統計室,不定期,
+380,その他,その他,53,支所・出張所コード,http://www.data.go.jp/data/storage/f/2013-12-16T22%3A54%3A32.721Z/mhlw13code_17.xls,xls,人口動態調査に使用するコード,http://www.mhlw.go.jp/toukei/list/81-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課,不定期,
+381,その他,その他,54,地域ブロックコード,http://www.data.go.jp/data/storage/f/2013-12-16T22%3A54%3A56.955Z/mhlw13code_19.xlsx,xls,所得再分配調査、国民生活基礎調査、国民健康・栄養調査に使用するコード,http://www.mhlw.go.jp/toukei/list/96-1.html,厚生労働省,厚生労働省政策統括官付政策評価官室調査総務係,不定期,
+382,その他,その他,55,二次医療圏,http://www.data.go.jp/data/storage/f/2013-12-16T22%3A54%3A57.721Z/mhlw13code_20.xls,xls,医療施設調査、病院報告、受療行動調査、患者調査、医師・歯科医師・薬剤師調査に使用するコード,http://www.mhlw.go.jp/toukei/list/79-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健統計課保健統計室,不定期,
+383,その他,その他,56,地域区分,http://www.wam.go.jp/wamappl/bb05Kaig.nsf/0/934170f0aeb68016492579f1001c18fc/$FILE/20120501_1shiryou4_1.pdf,pdf,（インターフェース仕様書共通編P36-1項番43）,http://www.mhlw.go.jp/toukei/list/45-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課世帯統計室,不定期,
+384,その他,その他,57,森林計画区コード,http://www.e-stat.go.jp/SG1/estat/Pdfdl.do?sinfid=000012449985,pdf,農林業センサスに使用するコード,http://www.maff.go.jp/j/tokei/census/afc/index.html,農林水産省,農林水産省大臣官房統計部経営・構造統計課センサス統計室,不定期,
+385,その他,その他,58,調査区番号,非公表,-,生鮮食料品価格・販売動向調査に使用するコード,http://www.maff.go.jp/j/tokei/kouhyou/seisen_doukou/,農林水産省,農林水産省大臣官房統計部生産流通消費統計課,不定期,
+386,その他,その他,59,調査区番号,非公表,-,商業統計調査、商業動態統計調査、工業統計調査、特定サービス産業実態調査に使用するコード,http://www.meti.go.jp/statistics/tyo/syougyo/,経済産業省,経済産業省大臣官房調査統計グループ　構造統計室商業統計班,不定期,
+387,その他,その他,60,経済産業局地域コード,http://www.meti.go.jp/statistics/tyo/tiikiio/result/result_02/xlsx/h17_irio_riyou_bumon.zip,zip,地域間産業連関表,http://www.meti.go.jp/statistics/tyo/tiikiio/,経済産業省,経済産業省大臣官房調査統計グループ 経済解析室産業連関班,不定期,
+388,その他,その他,61,アメダス観測所番号,http://xml.kishou.go.jp/jmaxml_20121130_Code.zip,zip,気象観測情報,http://xml.kishou.go.jp/,国土交通省,気象庁総務部企画課,不定期,
+389,その他,その他,62,気象警報・注意報等に用いる府県予報区、一次細分区域等のコード,http://xml.kishou.go.jp/jmaxml_20121130_Code.zip,zip,気象警報・注意報、地震情報等,http://xml.kishou.go.jp/,国土交通省,気象庁総務部企画課,不定期,
+390,その他,その他,63,支局等コード,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A22%3A43.928Z/mlit13code_45.xlsx,xls,自動車保有車両数統計,http://www.mlit.go.jp/toukeijouhou/toukei08/sokuhou/car_possession/car_possession08_02_.html,国土交通省,国土交通省自動車局自動車情報課,不定期,
+391,その他,その他,64,利用状況コ－ド,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A53%3A39.990Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+392,その他,その他,65,サイトID,http://www.biodic.go.jp/moni1000/findings/reports/pdf/h23_alpin%20zone.pdf,pdf,"重要生態系監視地域モニタリング推進事業（モニタリングサイト1000）　高山帯調査
+（表2-2から表2-11）",http://www.biodic.go.jp/moni1000/findings/reports/index.html,環境省,環境省自然環境局生物多様性センター,不定期,
+393,その他,その他,66,サイトNo,http://www.biodic.go.jp/moni1000/findings/reports/pdf/h23_coral_reef.pdf,pdf,"重要生態系監視地域モニタリング推進事業（モニタリングサイト1000）　サンゴ礁調査
+（資料1）",http://www.biodic.go.jp/moni1000/findings/reports/index.html,環境省,環境省自然環境局生物多様性センター,不定期,
+394,その他,その他,67,サイト記号,http://www.biodic.go.jp/moni1000/findings/reports/pdf/h23_coasts_and_shallow_seas.pdf,pdf,"重要生態系監視地域モニタリング推進事業（モニタリングサイト1000）　磯・干潟・アマモ場調査
+（pdfの308ページ）",http://www.biodic.go.jp/moni1000/findings/reports/index.html,環境省,環境省自然環境局生物多様性センター,不定期,
+395,その他,その他,68,サイトコード,http://www.biodic.go.jp/moni1000/findings/newsflash/pdf/anatidae_h23h24.pdf,pdf,"重要生態系監視地域モニタリング推進事業（モニタリングサイト1000）　ガンカモ類調査
+（pdfの32ページから47ページ）",http://www.biodic.go.jp/moni1000/findings/reports/index.html,環境省,環境省自然環境局生物多様性センター,不定期,
+396,その他,その他,69,サイトコード,http://www.biodic.go.jp/moni1000/findings/newsflash/pdf/H24spring_shorebird.pdf,pdf,"重要生態系監視地域モニタリング推進事業（モニタリングサイト1000）　シギ・チドリ類調査
+（表1a-1から表1a-2、表1b-1から表1b-4）",http://www.biodic.go.jp/moni1000/findings/reports/index.html,環境省,環境省自然環境局生物多様性センター,不定期,
+397,その他,その他,70,サイト番号,http://www.biodic.go.jp/moni1000/findings/reports/pdf/h23_satoyama.pdf,pdf,"重要生態系監視地域モニタリング推進事業（モニタリングサイト1000）　里地調査
+（pdfの139から146ページ）",http://www.biodic.go.jp/moni1000/findings/reports/index.html,環境省,環境省自然環境局生物多様性センター,不定期,
+398,その他,その他,71,サイトプロットID／サイトコード,http://www.biodic.go.jp/moni1000/findings/reports/pdf/h23_forests_and_grasslands.pdf,pdf,"重要生態系監視地域モニタリング推進事業（モニタリングサイト1000）　森林・草原調査
+（表II-1-1、表III-1-1）",http://www.biodic.go.jp/moni1000/findings/reports/index.html,環境省,環境省自然環境局生物多様性センター,不定期,
+399,その他,その他,72,調査地点番号,http://www.biodic.go.jp/gankamo/seikabutu/data/h25gankamo_a.xls,xls,ガンカモ類の生息状況調査,http://www.biodic.go.jp/gankamo/gankamo_top.html,環境省,環境省自然環境局生物多様性センター,不定期,
+400,その他,その他,73,保全地域名コード,http://www.biodic.go.jp/reports2/5th/umibecode/5_umibecode.pdf,pdf,"自然環境保全基礎調査（海辺調査）
+（pdfの73ページから86ページ）",http://www.biodic.go.jp/kiso/99/umibe.html,環境省,環境省自然環境局生物多様性センター,不定期,
+401,その他,その他,74,藻場コード,http://www.biodic.go.jp/reports2/6th/6_moba19/6_moba19.pdf,pdf,"自然環境保全基礎調査（藻場調査）
+（pdfの11ページから19ページ）",http://www.biodic.go.jp/kiso/34/34_higat.html,環境省,環境省自然環境局生物多様性センター,不定期,
+402,その他,その他,75,基準地域メッシュ（総務省）,http://www.stat.go.jp/data/mesh/pdf/gaiyo1.pdf,pdf,自然環境保全基礎調査（植生調査、動物分布調査）,http://www.biodic.go.jp/kiso/vg/vg_kiso.html,環境省,環境省自然環境局生物多様性センター,不定期,
+403,その他,その他,76,地点コード,https://www2.env.go.jp/water-pub/mizu-site/mizu/download/kousui/kousui_y_manual.pdf,pdf,公共用水域水質測定結果,http://www.env.go.jp/water/suiiki/,環境省,環境省,不定期,
+404,その他,その他,77,埋立てコ－ド,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A53%3A55.256Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+405,その他,その他,78,広域総合水質調査　水域コード,https://www2.env.go.jp/water-pub/mizu-site/mizu/download/kouiki/water_manual.xls,xls,広域総合水質調査,https://www2.env.go.jp/water-pub/mizu-site/mizu/download/download.asp,環境省,環境省,不定期,
+406,その他,その他,79,形式コ－ド,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A53%3A59.522Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+407,その他,その他,80,竣工,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A54%3A00.678Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+408,その他,その他,81,所管別コ－ド,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A54%3A01.865Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+409,その他,その他,82,進捗状況コ－ド,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A54%3A03.084Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+410,その他,その他,83,分譲,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A54%3A04.522Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+411,その他,その他,84,埋立前の海岸線種類コ－ド,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A54%3A05.740Z/env13code_49_50_74_77-83.xls,xls,瀬戸内海の埋立状況調査,https://www.env.go.jp/water/heisa.html,環境省,環境省,不定期,
+412,その他,その他,85,測定局コード,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A54%3A06.928Z/env13code_84.doc,doc,大気汚染状況の常時監視,http://soramame.taiki.go.jp/Index.php,環境省,環境省水・大気環境局大気環境課,不定期,
+413,その他,その他,86,有害大気汚染物質測定地点コード,http://www.data.go.jp/data/storage/f/2013-12-16T23%3A54%3A07.631Z/env13code_85.doc,doc,有害大気汚染物質モニタリング調査,http://tenbou.nies.go.jp/gis/monitor/?map_mode=monitoring_map&field=4,環境省,環境省,不定期,
+414,その他,その他,87,EDINETコード,※リンク不可,csv,"ホームページ
+「 EDINETタクソノミ及びコードリスト」より、「EDINETコードリスト」を選択",http://disclosure.edinet-fsa.go.jp/,金融庁,金融庁,不定期,
+415,その他,その他,88,生保会社コード,http://www.fsa.go.jp/common/law/guide/ins_b.pdf,pdf,"生命保険募集人登録申請事務
+(１８９ページから１９０ページ)",http://www.fsa.go.jp/common/law/guide/ins/03b.html,金融庁,金融庁,不定期,
+416,その他,その他,89,代申会社別区分番号,http://www.fsa.go.jp/common/law/guide/ins_b.pdf,pdf,"損害保険代理店登録申請事務
+(１９３ページ)
+",http://www.fsa.go.jp/common/law/guide/ins/03b.html,金融庁,金融庁,不定期,
+417,その他,その他,90,識別コード,http://www.moj.go.jp/content/000123354.pdf,pdf,"・債権譲渡登記申請事務
+・動産譲渡登記申請事務",http://www.moj.go.jp/ONLINE/CREDITASSIGNMENT/12-3.html,法務省,法務省,不定期,
+418,その他,その他,91,利用者識別番号,非公表,-,国税電子申告・納税システム（e-Tax）,http://www.e-tax.nta.go.jp/systemriyo/systemriyo4.htm,財務省,国税庁,不定期,
+419,その他,その他,92,局署整理番号,非公表,-,"法人税・消費税・源泉所得税等に関する諸申請事務
+各種標本調査",https://www.nta.go.jp/,財務省,国税庁,不定期,
+420,その他,その他,93,（国民年金基金）基金番号,非公表,-,国民年金基金等給付費負担金の申請等,http://www.nenkin.go.jp/n/www/info/index.jsp,厚生労働省,日本年金機構,不定期,
+421,その他,その他,94,（厚生年金基金）基金番号,非公表,-,規約変更の申請等,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kousei/index.html,厚生労働省,厚生労働省年金局総務課,不定期,
+422,その他,その他,95,（確定給付企業年金）規約番号,非公表,-,規約変更の申請等,http://www.mhlw.go.jp/topics/bukyoku/nenkin/nenkin/kigyou/index.html,厚生労働省,厚生労働省年金局総務課,不定期,
+423,その他,その他,96,確定拠出年金企業型年金実施事業所番号,非公表,-,規約変更の申請等,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/index.html,厚生労働省,厚生労働省年金局総務課,不定期,
+424,その他,その他,97,確定拠出年金運営管理機関登録番号,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/un-eikanri.html,html,変更届出等,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kyoshutsu/index.html,厚生労働省,厚生労働省年金局総務課,不定期,
+425,その他,その他,98,事業所整理記号,非公表,-,厚生年金保険・健康保険における被保険者資格取得届等の各種事務手続き,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/nenkin/nenkin/kousei/index.html,厚生労働省,厚生労働省年金局総務課,不定期,
+426,その他,その他,99,業者コード（事業者番号）,http://www.pmda.go.jp/operations/shonin/info/foreign/gaikokuseizounintei/file/gaikokuninteidaichou20140701.zip,zip,薬事法関係業許可・認定・承認申請事務（他府省庁所管のものは除く）、薬事工業生産動態統計調査,http://www.pmda.go.jp/operations/shonin/info/foreign/gaikokuseizounintei.html,厚生労働省,医薬品医療機器総合機構,不定期,
+427,その他,その他,100,登録番号,http://www.mhlw.go.jp/topics/bukyoku/kenkou/suido/kaisei/15/dl/meibo1.pdf,pdf,水質検査機関登録簿,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/topics/bukyoku/kenkou/suido/suishitsu/02a.html,厚生労働省,厚生労働省,不定期,
+428,その他,その他,101,登録番号,http://www.mhlw.go.jp/topics/bukyoku/kenkou/suido/kaisei/15/dl/meibo2.pdf,pdf,簡易専用水道検査機関登録簿,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/topics/bukyoku/kenkou/suido/suishitsu/02a.html,厚生労働省,厚生労働省,不定期,
+429,その他,その他,102,雇用保険適用事業所番号,非公表,-,雇用保険被保険者資格取得届等に使用する番号,https://hoken.hellowork.go.jp/assist/600000.do?screenId=600000&action=koyohohiLicenceLink,厚生労働省,厚生労働省職業安定局,不定期,
+430,その他,その他,103,労働保険番号,非公表,-,労働保険等平成年度一括有期事業総括表、特別加入保険料算定基礎額特例計算対象者内訳等に使用する番号,http://www.mhlw.go.jp/new-info/kobetu/roudou/gyousei/hoken/h25/ikkatu.html,厚生労働省,厚生労働省年金局総務課,不定期,
+431,その他,その他,104,予報業務許可番号（気象・波浪）,http://www.jma.go.jp/jma/kishou/minkan/minkan.html,html,予報業務許可申請事務（許可区分別に公表。気象・波浪の許可事業者名が一部未公表）,http://www.jma.go.jp/jma/kishou/minkan/jigyosha.html,国土交通省,国土交通省気象庁,不定期,
+432,その他,その他,105,予報業務許可番号（地震動）,http://www.jma.go.jp/jma/kishou/minkan/minkan_jishin.html,html,予報業務許可申請事務（許可区分別に公表。気象・波浪の許可事業者名が一部未公表）,http://www.jma.go.jp/jma/kishou/minkan/jigyosha.html,国土交通省,国土交通省気象庁,不定期,
+433,その他,その他,106,免許証番号,http://etsuran.mlit.go.jp/TAKKEN/takkenInit.do,html,宅地建物取引業免許申請事務,http://www.mlit.go.jp/totikensangyo/const/1_6_bt_000242.html,国土交通省,国土交通省土地・建設産業局,不定期,
+434,その他,その他,107,登録番号,http://etsuran.mlit.go.jp/TAKKEN/mansionInit.do,html,マンション管理業登録申請事務,http://www.mlit.go.jp/totikensangyo/const/1_6_bt_000258.html,国土交通省,国土交通省土地・建設産業局,不定期,
+435,その他,その他,108,登録番号,http://www.mlit.go.jp/common/001046975.pdf,pdf,賃貸住宅管理業者登録制度,http://www.mlit.go.jp/totikensangyo/const/sosei_const_fr3_000020.html,国土交通省,国土交通省土地・建設産業局,不定期,
+436,その他,その他,109,測量業登録番号,http://www.mlit.go.jp/totikensangyo/const/youran/youran_s_hp_20140626.xls,xls,測量業登録申請事務,http://www.mlit.go.jp/totikensangyo/const/totikensangyo_const_tk2_000059.html,国土交通省,国土交通省土地・建設産業局,不定期,
+437,その他,その他,110,建設コンサルタント登録番号,http://www.mlit.go.jp/totikensangyo/const/youran/youran_k_hp_20140626.xls,xls,建設コンサルタント登録申請事務,http://www.mlit.go.jp/totikensangyo/const/totikensangyo_const_tk2_000059.html,国土交通省,国土交通省土地・建設産業局,不定期,
+438,その他,その他,111,地質調査業登録番号,http://www.mlit.go.jp/totikensangyo/const/youran/youran_t_hp_20140626.xls,xls,地質調査業登録申請事務,http://www.mlit.go.jp/totikensangyo/const/totikensangyo_const_tk2_000059.html,国土交通省,国土交通省土地・建設産業局,不定期,
+439,その他,その他,112,所有者コード,http://www.kodokensaku.mlit.go.jp/motas/index.php?action=owner&module=codesearch,php,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+440,その他,その他,113,車名コード,http://www.kodokensaku.mlit.go.jp/motas/01.csv,csv,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+441,その他,その他,114,車体の形状コード,http://www.kodokensaku.mlit.go.jp/motas/02.csv,csv,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+442,その他,その他,115,備考欄コード,http://www.kodokensaku.mlit.go.jp/motas/03.csv,csv,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+443,その他,その他,116,抵当権コード,http://www.kodokensaku.mlit.go.jp/motas/04.csv,csv,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+444,その他,その他,117,嘱託種別コード,http://www.kodokensaku.mlit.go.jp/motas/05.csv,csv,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+445,その他,その他,118,駐留軍人軍属住所コード,http://www.kodokensaku.mlit.go.jp/motas/06.csv,csv,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+446,その他,その他,119,住所例外コード,http://www.kodokensaku.mlit.go.jp/motas/07.csv,csv,自動車登録関係業務、自動車保有車両数統計,http://www.kodokensaku.mlit.go.jp/motas/index.php,国土交通省,国土交通省自動車局,不定期,
+447,その他,その他,120,共通事業所コード（総務省所管）,非公表,-,"経済センサス-基礎調査
+経済センサス-活動調査",http://e-census-syougyo.stat.go.jp/,総務省,総務省,不定期,
+448,その他,その他,121,法人整理番号（内閣府所管）,https://www.koeki-info.go.jp/pictis_portal/common/index.do?contentsKind=110&gyouseiNo=00&contentsNo=00502&syousaiUp=0&procNo=contentsdisp&renNo=9&contentsType=03&houjinSerNo=undefined&oshiraseNo=undefined&bunNo=0&meiNo=0&seiriNo=undefined&edaNo=undefined&,pdf,特例民法法人概況調査,https://www.koeki-info.go.jp/pictis_portal/common/index.do?contentsKind=110&gyouseiNo=00&contentsNo=00502&syousaiUp=0&procNo=contentsdisp&renNo=9&contentsType=03&houjinSerNo=undefined&oshiraseNo=undefined&bunNo=0&meiNo=0&seiriNo=undefined&edaNo=undefined&,内閣府,内閣府,不定期,
+449,その他,その他,122,特定事業者番号（経済産業省所管）,http://www.enecho.meti.go.jp/policy/saveenergy/data/24fy_tokutei_shitei.xls,xls,"「エネルギーの使用の合理化に関する法律」第15条及び第17条による定期報告
+「地球温暖化対策の推進に関する法律」第21条の4における報告通知",http://www.enecho.meti.go.jp/category/saving_and_new/saving/004/001/,経済産業省,経済産業省資源エネルギー庁,不定期,
+450,その他,その他,123,エネルギー管理指定工場番号（経済産業省所管）,http://www.enecho.meti.go.jp/category/saving_and_new/saving/004/001/xls/25fy_kojyo_shitei.xlsx,xls,"「エネルギーの使用の合理化に関する法律」第17条による定期報告
+「地球温暖化対策の推進に関する法律」第21条の4における報告通知",http://www.enecho.meti.go.jp/category/saving_and_new/saving/004/001/,経済産業省,経済産業省資源エネルギー庁,不定期,
+451,その他,その他,124,調査票を発送する際の整理番号,非公表,-,下請取引に関する定期書面調査,http://www.jftc.go.jp/shitauke/shitauke_tetsuduki/chosa.html,公正取引委員会,公正取引委員会,不定期,
+452,その他,その他,125,"金融機関コード
+（全銀協の定めるコードとは異なり、独自のもの）",非公表,-,金融機関リスク等の報告事務,http://www.fsa.go.jp/status/,金融庁,金融庁,不定期,
+453,その他,その他,126,ライセンスID（総務省及び経済産業省所管）,非公表,-,情報通信業基本調査,http://www.meti.go.jp/statistics/tyo/joho/,経済産業省,経済産業省 大臣官房 調査統計グループ 企業統計室,不定期,
+454,その他,その他,127,調査対象ID,非公表,-,通信・放送産業動態調査,http://www.soumu.go.jp/johotsusintokei/statistics/statistics03.html,総務省,総務省,不定期,
+455,その他,その他,128,学校調査番号,非公表,-,"学校基本調査
+学校保健統計調査
+学校教員統計調査
+地方教育費調査
+子どもの学習費調査
+学校における教育の情報化の実態等等に関する調査",http://www.mext.go.jp/b_menu/toukei/chousa01/kihon/1267995.htm,文部科学省,文部科学省生涯学習政策局政策課,不定期,
+456,その他,その他,129,施設整理番号,非公表,-,社会教育調査,http://www.mext.go.jp/b_menu/toukei/chousa02/shakai/,文部科学省,文部科学省生涯学習政策局政策課,不定期,
+457,その他,その他,130,健康保険組合コード,非公表,-,"健康保険・船員保険事業状況報告
+健康保険・船員保険被保険者実態調査
+医療経済実態調査",http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/seido/kenpo_zyoukyou.html,厚生労働省,厚生労働省保険局調査課,不定期,
+458,その他,その他,131,保険者番号,http://www.e-stat.go.jp/SG1/estat/GL08020103.do?_xlsDownload_&fileId=000005151407&releaseCount=1,xls,医療給付実態調査,http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/iryouhoken/database/zenpan/iryoukyufu.html,厚生労働省,厚生労働省保険局調査課,不定期,
+459,その他,その他,132,国民健康保険保険者番号,http://www.e-stat.go.jp/SG1/estat/GL08020103.do?_xlsDownload_&fileId=000005151407&releaseCount=1,xls,"国民健康保険事業年報・月報
+国民健康保険実態調査",http://www.e-stat.go.jp/SG1/estat/GL08020103.do?_toGL08020103_&listID=000001088320&requestSender=search,厚生労働省,厚生労働省保険局調査課,不定期,
+460,その他,その他,133,医療施設整理番号,非公表,-,医療施設調査、病院報告、患者調査、受療行動調査,http://www.mhlw.go.jp/toukei/list/79-1.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健統計課保健統計室,不定期,
+461,その他,その他,134,医療施設番号,非公表,-,社会医療診療行為別調査,http://www.mhlw.go.jp/toukei/list/26-19.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課社会統計室,不定期,
+462,その他,その他,135,事業所番号,非公表,-,社会福祉施設等調査,http://www.mhlw.go.jp/toukei/list/23-22.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課社会統計室,不定期,
+463,その他,その他,136,介護保険事業所番号,非公表,-,介護サービス施設・事業所調査、介護給付費実態調査,http://www.mhlw.go.jp/toukei/list/24-22-2.html,厚生労働省,厚生労働省大臣官房統計情報部人口動態・保健社会統計課社会統計室,不定期,
+464,その他,その他,137,事業所番号（経産省所管）,非公表,-,生鮮食料品価格・販売動向調査,http://www.maff.go.jp/j/tokei/kouhyou/seisen_doukou/,農林水産省,農林水産省大臣官房統計部生産流通消費統計課,不定期,
+465,その他,その他,138,市場及び卸売会社コード,非公表,-,青果物市況情報調査,http://www.maff.go.jp/j/tokei/kouhyou/seika_orosi/,農林水産省,農林水産省大臣官房統計部生産流通消費統計課消費統計室,不定期,
+466,その他,その他,139,業種コード,非公表,-,食品循環資源の再生利用等実態調査,http://www.maff.go.jp/j/tokei/kouhyou/zyunkan_sigen/,農林水産省,農林水産省大臣官房統計部生産流通消費統計課消費統計室,不定期,
+467,その他,その他,140,事業所コード,非公表,-,工業統計調査,http://www.meti.go.jp/statistics/tyo/kougyo/,経済産業省,経済産業省大臣官房調査統計グループ構造統計室（工業統計班） ,不定期,
+468,その他,その他,141,事業所コード,非公表,-,商業統計調査,http://www.meti.go.jp/statistics/tyo/syougyo/,経済産業省,経済産業省大臣官房調査統計グループ構造統計室商業統計班,不定期,
+469,その他,その他,142,事業所番号,非公表,-,製造工業生産予測調査,http://www.meti.go.jp/statistics/tyo/yosoku/,経済産業省,経済産業省大臣官房調査統計グループ経済解析室鉱工業指数班,不定期,
+470,その他,その他,143,事業所番号,非公表,-,"○経済産業省生産動態統計調査
+○経済産業省特定業種石油等消費統計調査",http://www.meti.go.jp/statistics/tyo/seidou/,経済産業省,経済産業省大臣官房調査統計グループ鉱工業動態統計室,不定期,
+471,その他,その他,144,事業所番号,非公表,-,商業動態統計調査,http://www.meti.go.jp/statistics/tyo/syoudou/,経済産業省,経済産業省大臣官房調査統計グループサービス動態統計室 商業動態班,不定期,
+472,その他,その他,145,事業所番号,非公表,-,特定サービス産業動態統計調査,http://www.meti.go.jp/statistics/tyo/tokusabido/,経済産業省,経済産業省大臣官房調査統計グループサービス動態統計室サービス産業動態統計班,不定期,
+473,その他,その他,146,事業所番号,非公表,-,製造工業生産予測調査,http://www.meti.go.jp/statistics/tyo/yosoku/,経済産業省,経済産業省大臣官房調査統計グループ経済解析室鉱工業指数班,不定期,
+474,その他,その他,147,業者コード（総務省所管）,http://www.chotatujoho.go.jp/csjs/ex016/StartShikakushaMenuAction.do,html,全省庁統一の競争参加資格者番号として付与しているものである。,http://www.chotatujoho.go.jp/va/com/ShikakuTop.html,総務省,総務省,不定期,
+475,その他,その他,148,債主コード,非公表,-,経理関係業務（官庁会計システム（ＡＤＡＭＳⅡ）で自動的に発番され，同一の債主でもコードは省庁ごとに異なる。）,非公表,財務省,財務省,不定期,
+476,その他,その他,149,"建設業許可番号（国土交通省所管）
+業者概要","※リンク不可
+http://www.mlit.go.jp/common/000191050.xls",xls,"競争参加資格審査、工事成績評定相互利用、CORINS（工事実績情報サービス）
+※外部リンク不可のため,URLをブラウザへ直接入力する必要がある",http://www.mlit.go.jp/totikensangyo/const/sosei_const_tk3_000041.html,国土交通省,国土交通省土地・建設産業局,不定期,
+477,その他,その他,150,"建設業許可番号（国土交通省所管）
+営業所情報（その１）","※リンク不可
+http://www.mlit.go.jp/common/000191051.xls",xls,"競争参加資格審査、工事成績評定相互利用、CORINS（工事実績情報サービス）
+※外部リンク不可のため,URLをブラウザへ直接入力する必要がある",http://www.mlit.go.jp/totikensangyo/const/sosei_const_tk3_000041.html,国土交通省,国土交通省土地・建設産業局,不定期,
+478,その他,その他,151,"建設業許可番号（国土交通省所管）
+営業所情報（その２）","※リンク不可
+http://www.mlit.go.jp/common/000191052.xls",xls,"競争参加資格審査、工事成績評定相互利用、CORINS（工事実績情報サービス）
+※外部リンク不可のため,URLをブラウザへ直接入力する必要がある",http://www.mlit.go.jp/totikensangyo/const/sosei_const_tk3_000041.html,国土交通省,国土交通省土地・建設産業局,不定期,
+479,その他,その他,152,"建設業許可番号（国土交通省所管）
+営業所情報（その３）","※リンク不可
+http://www.mlit.go.jp/common/000191053.xls",xls,"競争参加資格審査、工事成績評定相互利用、CORINS（工事実績情報サービス）
+※外部リンク不可のため,URLをブラウザへ直接入力する必要がある",http://www.mlit.go.jp/totikensangyo/const/sosei_const_tk3_000041.html,国土交通省,国土交通省土地・建設産業局,不定期,
+480,その他,その他,153,建設工事競争入札参加資格登録番号（内閣府所管）,http://www.cao.go.jp/chotatsu/shikaku/meibo/2410meibo1.pdf,pdf,有資格者名簿,http://www.cao.go.jp/chotatsu/,内閣府,内閣府,不定期,
+481,その他,その他,154,測量・建設ｺﾝｻﾙﾀﾝﾄ等業務競争入札参加資格登録番号（内閣府所管）,http://www.cao.go.jp/chotatsu/shikaku/meibo/2410meibo3.pdf,pdf,有資格者名簿,http://www.cao.go.jp/chotatsu/,内閣府,内閣府,不定期,
+482,その他,その他,155,外務省固有コード,非公表,-,会計経理事務（予算支払事務）,非公表,外務省,外務省,不定期,
+483,その他,その他,156,受付番号,非公表,-,電子入札申請事務（工事）,http://www.mofa.go.jp/mofaj/annai/shocho/chotatsu/shikaku.html,財務省,外務省,不定期,
+484,その他,その他,157,銀行コード,非公表,-,金融機関から提出される決算状況表等の検査・監督業務（銀行業態）,http://www.fsa.go.jp/status/,金融庁,金融庁,不定期,
+485,その他,その他,158,証券会社コード,非公表,-,金融機関から提出される決算状況表等の検査・監督業務（証券業態）,http://www.fsa.go.jp/status/,金融庁,金融庁,不定期,
+486,その他,その他,159,保険コード,非公表,-,"金融機関から提出される決算状況表等の検査・監督業務（生保業態）、
+金融機関から提出される決算状況表等の検査・監督業務（損保業態）",http://www.fsa.go.jp/status/,金融庁,金融庁,不定期,
+487,その他,その他,160,地震コード,http://www.j-shis.bosai.go.jp/map/JSHIS2/data/DOC/DataFileRule/A-RULES.pdf,pdf,"調査・集計等の事務処理
+（67ページ以降）",http://www.j-shis.bosai.go.jp/map/JSHIS2/download.html?lang=jp,文部科学省,防災科学技術研究所,不定期,
+488,その他,その他,161,断層コード,http://www.j-shis.bosai.go.jp/map/JSHIS2/data/DOC/DataFileRule/A-RULES.pdf,pdf,"調査・集計等の事務処理
+（69ページ以降）",http://www.j-shis.bosai.go.jp/map/JSHIS2/download.html?lang=jp,文部科学省,防災科学技術研究所,不定期,
+489,その他,その他,162,微地形区分コード,http://www.j-shis.bosai.go.jp/api-sstruct-phys#more-3653,pdf,表層地盤物性値情報提供APIにて、微地形区分コードと微地形区分名称を提供,http://www.j-shis.bosai.go.jp/api-sstruct-phys#more-3653,文部科学省,防災科学技術研究所,不定期,
+490,その他,その他,163,職員コード,非公表,-,人事・給与関係業務情報システムにて職員を一意に識別するためのコード,http://www.jinji.go.jp/top.htm,人事院,人事院,不定期,
+491,その他,その他,164,事業所コード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/pdf/code_jigyou_h2605.pdf,pdf,農業農村整備事業の電子納品に係る業務・工事管理項目のコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/sonota.html,農林水産省,農林水産省農村振興局整備部設計課施工企画調整室,不定期,
+492,その他,その他,165,発注者機関コード及び発注者コード表,http://www.maff.go.jp/j/nousin/seko/kyu_youryou/pdf/code_hachu_kikan_h2310.pdf,pdf,農業農村整備事業の電子納品に係る業務・工事管理項目のコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/sonota.html,農林水産省,農林水産省農村振興局整備部設計課施工企画調整室,不定期,
+493,その他,その他,166,業務分野コード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/pdf/code_gyoumu_bunya__h2304.pdf,pdf,農業農村整備事業の電子納品に係る業務・工事管理項目のコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/sonota.html,農林水産省,農林水産省農村振興局整備部設計課施工企画調整室,不定期,
+494,その他,その他,167,業務管理項目のコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/other/code_csv_h2004.lzh,lzh,農業農村整備事業の電子納品に係る業務・工事管理項目のコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/sonota.html,農林水産省,農林水産省農村振興局整備部設計課施工企画調整室,不定期,
+495,その他,その他,168,CORINS（Ver.6)に関連するコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/other/code_crins_h265.lzh,lzh,農業農村整備事業の電子納品に係る業務・工事管理項目のコード表,http://www.maff.go.jp/j/nousin/seko/nouhin_youryou/sonota.html,農林水産省,農林水産省農村振興局整備部設計課施工企画調整室,不定期,
+496,その他,その他,169,日本版スチュワードシップ・コード,http://www.fsa.go.jp/news/25/sonota/20140610-1/list_01.pdf,pdf,投資と対話を通じて企業の持続的成長を促すために、本コードを受入れ表明した機関投資家のリストを公表,http://www.fsa.go.jp/news/25/sonota/20140610-1.html,金融庁,金融庁総務企画局企業開示課,不定期,
+497,その他,その他,170,平成26年度官民協働海外留学支援制度学校コード表 ,http://mext.s3.amazonaws.com/2014/03/b28e50f2ba83151d1bdfa0d72a99ae90.pdf,pdf,平成26年度官民協働海外留学支援制度の応募用学校コード表,https://tobitate.jasso.go.jp/,文部科学省,文部科学省,不定期,
+498,その他,その他,171,"薬価基準収載医薬品コード
+（内服薬）",http://www.mhlw.go.jp/topics/2012/03/xls/tp140203-01_1.xls,xls,医療機関等で保険診療に用いられる医療用医薬品として官報に告示されている品目の分類コード,http://www.mhlw.go.jp/topics/2012/03/tp120305-01.html,厚生労働省,厚生労働省保険局医療課,不定期,
+499,その他,その他,172,"薬価基準収載医薬品コード
+（注射薬）",http://www.mhlw.go.jp/topics/2012/03/xls/tp140203-01_2.xls,xls,医療機関等で保険診療に用いられる医療用医薬品として官報に告示されている品目の分類コード,http://www.mhlw.go.jp/topics/2012/03/tp120305-01.html,厚生労働省,厚生労働省保険局医療課,不定期,
+500,その他,その他,173,"薬価基準収載医薬品コード
+（外用薬）",http://www.mhlw.go.jp/topics/2012/03/xls/tp140203-01_3.xls,xls,医療機関等で保険診療に用いられる医療用医薬品として官報に告示されている品目の分類コード,http://www.mhlw.go.jp/topics/2012/03/tp120305-01.html,厚生労働省,厚生労働省保険局医療課,不定期,
+501,その他,その他,174,"薬価基準収載医薬品コード
+（歯科用薬剤）",http://www.mhlw.go.jp/topics/2012/03/xls/tp120305-01_4.xls,xls,医療機関等で保険診療に用いられる医療用医薬品として官報に告示されている品目の分類コード,http://www.mhlw.go.jp/topics/2012/03/tp120305-01.html,厚生労働省,厚生労働省保険局医療課,不定期,
+502,その他,その他,175,傷病名マスター,http://www.iryohoken.go.jp/shinryohoshu/downloadMenu/bFile,zip,レセプト電算処理で用いる傷病名マスター,http://www.iryohoken.go.jp/shinryohoshu/standardMenu/doStandardMasterBz,厚生労働省,厚生労働省保険局,不定期,
+503,その他,その他,176,動物検疫所コード（申請先の動物検疫所のコード）,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an1.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+504,その他,その他,177,用途、数量単位コード,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an67.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+505,その他,その他,178,梱包単位コード,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an8.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+506,その他,その他,179,"州、地域コード
+(現在、フランス、ベルギー、ブラジルのみ）",http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an9.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+507,その他,その他,180,動物種類コード,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an10.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+508,その他,その他,181,用途コード(犬等を除く-用途),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an11.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+509,その他,その他,182,用途コード(犬等）,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an12.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+510,その他,その他,183,品種コード(犬等、サル以外の動物),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an15.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+511,その他,その他,184,品種コード(犬等),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an16.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+512,その他,その他,185,品種コード(サル),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an17.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+513,その他,その他,186,狂犬病予防接種の種類コード(犬等),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an19.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+514,その他,その他,187,その他予防接種の種類コード(犬等),http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an20.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+515,その他,その他,188,狂犬病抗体検査機関コード,http://www.maff.go.jp/aqs/tetuzuki/system/other/naccs_an22.xls,xls,NACCS（動物検疫関連業務）で使用する各種コード,http://www.maff.go.jp/aqs/tetuzuki/system/anipas_code.html,農林水産省,農林水産省動物検疫所,不定期,
+516,その他,その他,189,届出者等整理コード,非公表,-,化審法（化学物質審査規制法）の届出に使用する整理コード,http://www.meti.go.jp/policy/chemical_management/kasinhou/todoke/index.html,経済産業省,経済産業省製造産業局化学物質管理課化学物質安全室安全管理担当,不定期,
+517,その他,その他,190,Fタームテーマコード,https://www.jpo.go.jp/shiryou/s_sonota/xls/themecode/code.xls,xls,特許・実用新案文献を検索するために用いるFIやFターム、国際特許分類(IPC)の説明文やリスト,https://www.jpo.go.jp/shiryou/s_sonota/themecode.htm,経済産業省,特許庁審査第一部調整課検索情報企画班,不定期,
+518,その他,その他,191,住所コード及び発注機関コード,http://www.mlit.go.jp/sogoseisaku/region/recycle/fukusanbutsu/koukyoukouji/sysfile/CodeData_Ver9.lzh,lzh,公共工事土量調査入力システムで使用する住所コード及び発注機関コード,http://www.mlit.go.jp/sogoseisaku/region/recycle/fukusanbutsu/koukyoukouji/download.htm#4,国土交通省,国土交通省総合政策局,不定期,
