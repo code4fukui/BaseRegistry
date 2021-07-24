@@ -11,7 +11,7 @@
 
 ## 参考文献一覧
 
-### 表 ５-2 参考とした他APIガイド
+### 表 5-2 参考とした他APIガイド
 
 - [White House Web API Standards](https://github.com/WhiteHouse/api-standards)
 - [18F API Standards](https://github.com/18F/api-standards)
@@ -19,7 +19,7 @@
 - [API Design Guide(GOV.AU)](http://apiguide.readthedocs.io/en/latest/index.html)
 - [Web API DesignCrafting Interfaces that Developers Love](https://pages.apigee.com/rs/apigee/images/api-designebook-2012-03.pdf)
 
-### 表 ５-3 本ガイドブック内で参照した企画や取り組みなど
+### 表 5-3 本ガイドブック内で参照した企画や取り組みなど
 
 - [RFC6570 URI Template](https://tools.ietf.org/html/rfc6570)
 - [RFC4627 The application/json Media Type for JavaScript Object Notation (JSON)](https://tools.ietf.org/html/rfc4627)
@@ -52,8 +52,97 @@
 - [IPAセキュア・プログラミング講座](http://www.ipa.go.jp/security/awareness/vendor/programmingv2/index.html)
 - [OWASP REST Security Cheat Sheet](https://www.owasp.org/index.php/REST_Security_Cheat_Sheet)
 
-### 表 ５-4 技術用語説明
+### 表 5-4 技術用語説明
 
-|用語|概要|
-|-|-|
-|HTTPプロトコル|インターネット上で、Webクライアントからリクエストを送り、それを受けてWebサーバからレスポンスを返すことで、データの送受信を行う規約。サーバに要求する動作を定めたメソッドが定められており、GET/POST/PUT/DELETEなどがある。|
+#### HTTPプロトコル
+
+インターネット上で、Webクライアントからリクエストを送り、それを受けてWebサーバからレスポンスを返すことで、データの送受信を行う規約。サーバに要求する動作を定めたメソッドが定められており、GET/POST/PUT/DELETEなどがある。
+
+#### REST(本ガイドブック内)
+
+REpresentational State Transferの略称。
+HTTPプロトコルに基づいて、URIを指定しリソースを取得する設計様式を指す。本ガイドブックでは、Pragmatic RESTとする。
+
+#### SOAP
+
+Simple Object Access Protocolの略称。
+HTTPプロトコル等に基づいて、XMLデータのやり取りを通じ連携を行う方式。「WS-*」と総称される
+様々なプロトコルが用意されている。
+
+#### URI
+
+Uniform Resource Identifierの略称。インターネット上で、リソースの場所などを表現する識別子
+
+#### エンドポイント
+
+ネットワークに接続された端末のアドレス。本ガイドブックでは、APIへアクセスするためのアドレスを示す。
+
+#### ベースURI
+
+URIのうち、指定するリソースによって変わらない共通部分
+
+#### ページネーション
+
+データを小さく分割した単位及びそのアクセス先をページと呼ぶ。
+全データではなく特定のデータを要求する場合、欲しいデータ（ページ）を指定することとなる。
+
+#### HTTPステータスコード
+
+HTTPプロトコルに従ったWebサーバからのレスポンスにおいて、その通信結果を表す3桁のコード
+
+#### TLS(SSL)
+
+Secure Sockets Layerの略称。インターネット上で通信データを暗号化するための技術。
+HTTPにおける通信にTLS(SSL)を適用した場合、その通信をHTTPS通信と呼ぶ。
+
+#### APIキー
+
+APIの利用に必要な暗号鍵のこと。API利用者ごとに発行し、不正なアクセスを防ぐとともに、API呼び出し状況の把握にも使われる。
+
+#### OpenID Connect
+
+Webサーバ上のリソースへのアクセス権限を管理し、利用者がクライアントにID/PWを教えることなく、アクセスを許可するための仕組み。
+OAuth2.0を拡張した認証プロトコル
+
+#### クロスサイトスクリプティング
+
+Webページの入力フォームなどから不正なスクリプトを挿入し、そのWebページを閲覧したブラウザ上で、スクリプトを実行させる攻撃。スクリプトにより、利用者の分からないところで、別のサーバに通信を行うこともある。
+
+#### クロスドメイン
+
+１つのWebサイト内でアクセス先のドメインが複数に跨っている状態
+
+#### CORS対応
+
+Cross-Origin Resource Sharingの略称。
+Webブラウザがオリジンサーバ（主となるオリジナルコンテンツを保有しているサーバ）以外のサーバからデータを取得できるようにする対応。
+多くのWebブラウザでは、クロスサイトスクリプティングを防ぐために、別のサーバへアクセスしない仕組みとなっている。
+
+#### DoSアタック
+
+Denial of Serviceアタックの略称。
+インターネット上から、サーバに過大な負荷を掛けるために、大量アクセスを行う攻撃。
+サーバが落ちたり、応答速度が遅くなる。
+
+#### SQLインジェクション
+
+アプリケーションが想定しないSQL文を入力し、データベースの内容を変更したり削除する攻撃
+
+#### クロスサイトリクエストフォージェリ
+
+攻撃者が作成したWebサイトに訪れた利用者が、知らない間に、自動で他のリソースへアクセスし不正な行為をしてしまう攻撃
+
+#### クリックジャギング
+
+攻撃者が作成したWebサイト上で、ある箇所をクリックさせ、別のWebサイトに関する設定情報などを変更させる攻撃
+
+#### トランザクション処理
+
+複数の処理セットを一つの単位として処理すること。
+具体的には、全ての工程が正常に実行された場合にのみ、データベースへの書き込みなど、他へ影響を与える処理を実行する。
+途中で異常があった場合には、全てを最初の状態に戻す。
+他からの書き換えが処理中に行われないよう、ロックする（自ら以外変更不可とする）ことなどが挙げられる。
+
+#### インタフェース（本ガイドブック内）
+
+APIの仕様、つまりAPIを介した通信方法、又は、仕様に基づき実装された外部と通信する接点
