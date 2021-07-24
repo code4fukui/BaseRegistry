@@ -73,6 +73,8 @@ HTTPプロトコル等に基づいて、XMLデータのやり取りを通じ連�
 
 Uniform Resource Identifierの略称。インターネット上で、リソースの場所などを表現する識別子
 
+- [RFC6570 URI Template](https://tools.ietf.org/html/rfc6570)
+
 #### エンドポイント
 
 ネットワークに接続された端末のアドレス。本ガイドブックでは、APIへアクセスするためのアドレスを示す。
@@ -90,6 +92,8 @@ URIのうち、指定するリソースによって変わらない共通部分
 
 HTTPプロトコルに従ったWebサーバからのレスポンスにおいて、その通信結果を表す3桁のコード
 
+- [RFC7231 HTTPステータスコード](https://tools.ietf.org/html/rfc7231)
+
 #### TLS(SSL)
 
 Secure Sockets Layerの略称。インターネット上で通信データを暗号化するための技術。
@@ -104,6 +108,9 @@ APIの利用に必要な暗号鍵のこと。API利用者ごとに発行し、�
 Webサーバ上のリソースへのアクセス権限を管理し、利用者がクライアントにID/PWを教えることなく、アクセスを許可するための仕組み。
 OAuth2.0を拡張した認証プロトコル
 
+- [OpenID Connect](http://openid.net/)
+- [OpenID Japan](http://www.openid.or.jp/document/index.html#op-docopenid-connect)
+
 #### クロスサイトスクリプティング
 
 Webページの入力フォームなどから不正なスクリプトを挿入し、そのWebページを閲覧したブラウザ上で、スクリプトを実行させる攻撃。スクリプトにより、利用者の分からないところで、別のサーバに通信を行うこともある。
@@ -117,6 +124,8 @@ Webページの入力フォームなどから不正なスクリプトを挿入�
 Cross-Origin Resource Sharingの略称。
 Webブラウザがオリジンサーバ（主となるオリジナルコンテンツを保有しているサーバ）以外のサーバからデータを取得できるようにする対応。
 多くのWebブラウザでは、クロスサイトスクリプティングを防ぐために、別のサーバへアクセスしない仕組みとなっている。
+
+- [Cross-Origin ResourceSharing W3C Recommendation](https://www.w3.org/TR/cors/)
 
 #### DoSアタック
 
