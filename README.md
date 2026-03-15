@@ -1,5 +1,9 @@
 # BaseRegistry
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+The BaseRegistry is a Japanese open source project that provides a framework for managing base registries, which are authoritative data sources used across various government services and agencies.
+
 ## Features
 
 - [Specifying the Base Registry](ベース・レジストリの指定について.md)
