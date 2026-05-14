@@ -1,50 +1,56 @@
-# ベースレジストリ
+# BaseRegistry
 
-- [ベース・レジストリの指定について](ベース・レジストリの指定について.md)
-- [行政サービス・データ連携モデル（全体編）](行政サービス・データ連携モデル（全体編）.md)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## ベースレジストリ項目別
+The BaseRegistry is a Japanese open source project that provides a framework for managing base registries, which are authoritative data sources used across various government services and agencies.
 
-### アドレス（住所）
+## Features
 
-- [ベース・レジストリとしての住所・所在地マスターデータ整備について](ベース・レジストリとしての住所・所在地マスターデータ整備について.md)
-- [行政基本情報データ連携モデル-住所](行政基本情報データ連携モデル-住所.md)
-- [観光立国実現に向けた多言語対応の改善・強化のためのガイドライン](観光立国実現に向けた多言語対応の改善・強化のためのガイドライン.md)
-- [ヘボン式ローマ字](ヘボン式ローマ字.csv)
+- [Specifying the Base Registry](ベース・レジストリの指定について.md)
+- [Administrative Service Data Linkage Model (Whole)](行政サービス・データ連携モデル（全体編）.md)
 
-### 文字（漢字）
+## Base Registry Items
 
-- [文字環境導入実践ガイドブック](文字環境導入実践ガイドブック.md)
-- [文字情報基盤](https://github.com/code4fukui/mojikiban)
+### Address (Location)
 
-### データ連携モデル
+- [On the Development of Address/Location Master Data as a Base Registry](ベース・レジストリとしての住所・所在地マスターデータ整備について.md)
+- [Administrative Basic Information Data Linkage Model - Address](行政基本情報データ連携モデル-住所.md)
+- [Guidelines for Improving and Strengthening Multilingual Support for Realizing a Tourism-Oriented Country](観光立国実現に向けた多言語対応の改善・強化のためのガイドライン.md)
+- [Hepburn Romanization](ヘボン式ローマ字.csv)
 
-- [日付時刻](行政基本情報データ連携モデル-日付及び時刻.md)
-- [住所](行政基本情報データ連携モデル-住所.md)
-- [郵便番号](行政基本情報データ連携モデル-郵便番号.md)
-- [地理情報](行政基本情報データ連携モデル-地理情報.md)
-- [電話番号](行政基本情報データ連携モデル-電話番号.md)
-- [POIコード](行政基本情報データ連携モデル-POIコード.md)
-- [POIコード一覧](POIコード.csv)
+### Characters (Kanji)
 
-## 参考
+- [Practical Guidebook for Introducing Character Environment](文字環境導入実践ガイドブック.md)
+- [Character Information Infrastructure](https://github.com/code4fukui/mojikiban)
 
-- [用語](用語.md)
-- [標準ガイドライン群用語集](https://code4fukui.github.io/stdwords-jp/)
-- [デジタル・ガバメント実行計画](デジタル・ガバメント実行計画.md)
-- [政府情報システムにおいてサービス提供の対象とすべき端末環境及びWebブラウザの選定に関する技術レポート](政府情報システムにおいてサービス提供の対象とすべき端末環境及びWebブラウザの選定に関する技術レポート.md)
-- [データ品質ガイドブック](データ品質ガイドブック.md)
-- [コード一覧](コード一覧.csv) [※インターネット検索から整理したもの](https://cio.go.jp/codes)
-- [APIテクニカルガイドブック](APIテクニカルガイドブック.md)
+### Data Linkage Model
 
-## 出展
+- [Date and Time](行政基本情報データ連携モデル-日付及び時刻.md)
+- [Address](行政基本情報データ連携モデル-住所.md)
+- [Postal Code](行政基本情報データ連携モデル-郵便番号.md)
+- [Geographic Information](行政基本情報データ連携モデル-地理情報.md)
+- [Phone Number](行政基本情報データ連携モデル-電話番号.md)
+- [POI Code](行政基本情報データ連携モデル-POIコード.md)
+- [POI Code List](POIコード.csv)
 
-- [ベース・レジストリの指定について | 政府CIOポータル](https://cio.go.jp/node/2764)
-- [標準ガイドライン群 | 政府CIOポータル](https://cio.go.jp/guides)
+## References
 
-## ワードファイル作成(docx)
+- [Terminology](用語.md)
+- [Standard Guideline Glossary](https://code4fukui.github.io/stdwords-jp/)
+- [Digital Government Implementation Plan](デジタル・ガバメント実行計画.md)
+- [Technical Report on Selection of Terminal Environment and Web Browsers to be Targeted for Service Provision in Government Information Systems](政府情報システムにおいてサービス提供の対象とすべき端末環境及びWebブラウザの選定に関する技術レポート.md)
+- [Data Quality Guidebook](データ品質ガイドブック.md)
+- [Code List](コード一覧.csv) [※Organized from Internet search](https://cio.go.jp/codes)
+- [API Technical Guidebook](APIテクニカルガイドブック.md)
 
-[Deno](https://deno.land)をインストール
+## Sources
+
+- [About the Designation of Base Registries | Government CIO Portal](https://cio.go.jp/node/2764)
+- [Standard Guideline Group | Government CIO Portal](https://cio.go.jp/guides)
+
+## Word File Creation (docx)
+
+Install [Deno](https://deno.land)
 ```
 cd deno
 deno run -A make.js
